@@ -1,0 +1,470 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "71ade09e-7e35-4643-be57-146f96a80c5e",
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "15d562e1-5443-4347-8150-55e2c4de1fc8",
+			"based_on_id": "c2e4bb63-e140-480f-92fc-37cfd8efa449",
+			"based_on_hash": "XppvWFPt0vksrxPUpdiEc6ZOpRe+WziltxNWnxhqxwk",
+			"name": "Sharp Claws",
+			"physical": true,
+			"base_points": 5,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Slash",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B42",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "3f3c1d5c-2d6e-490a-a063-e69c37c4bedf",
+			"name": "Nonhuman Stigma",
+			"social": true,
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from humans and robots who care about species."
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "ab59e4ec-d3cd-4e97-b11e-f1530babef39",
+			"based_on_id": "6dacf382-cf72-4a64-8653-f61130548f96",
+			"based_on_hash": "JBOoA9aFHKmaahyMAGKlLVkC56tp5qv+QNBWVvnBH6Q",
+			"name": "Sharp Teeth",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37c1963f-c058-4104-ae74-68b2028bedfd",
+					"based_on_id": "c32922a5-c187-48a9-8109-61776dc618f1",
+					"based_on_hash": "1WScOXq9mB0C9kO0KCejsY3AWjkUSqY9CILzbug/nWQ",
+					"disabled": true,
+					"name": "Provided by Vampiric Bite",
+					"reference": "B96",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B91",
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "24c1ecd7-204d-42f8-a837-171654b32852",
+			"based_on_id": "149239c1-aec9-4acc-a5fe-07b64cf6a323",
+			"based_on_hash": "oBXgu3PgreWBHmR9s8lObu9I03M6NDVzuRP7Bz8HpF4",
+			"name": "Language: Draconic",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1ec9185c-f680-4993-9cf3-a4e3d4f253d5",
+					"based_on_id": "9eabef96-8ca3-4988-a6b7-6602f5184d1c",
+					"based_on_hash": "lncFefWq4Nv1iBjbJ+4/SS+djquuTw0fh+T2D/pIXAo",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "7c88bd4f-6b48-4d24-9a29-2bc30ed1e0c6",
+					"based_on_id": "01a1f061-f36a-424b-bfff-4ecb5df8376b",
+					"based_on_hash": "NoA6UM5S7i/XHP9mrDMqCwFxvPIZAtlB5IEwxhgmhaE",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "9bf921e9-f8ce-45d3-8e32-943a2dee4edd",
+					"based_on_id": "6c1f9d0f-98d3-416e-9292-b4dae1d788b8",
+					"based_on_hash": "j8YVsUyvy/uyHpkMVPSC8LI+aMg/D0xJqnTqm4D6N1s",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "37c4a5a8-3866-4a71-9b29-1c8b59f67cd5",
+					"based_on_id": "52b4aae0-ee9b-46da-9569-a0eba2f9a7fa",
+					"based_on_hash": "USjE6WfFi/s4kvIjpuqWy+fkOMCE0ryJhszuHBTErPM",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0a5b38e4-ed6d-4258-9026-84ba2b15c985",
+					"based_on_id": "6e6a0c4f-1779-4a90-b182-09fedb5bc8de",
+					"based_on_hash": "1iEtNrK1RCmV/Ee3SAPEZEwIebgpgOYD/lL/+g/pNBU",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d16a8737-93d5-4f12-8dff-93dd3f45ae08",
+					"based_on_id": "58b0d0ff-7ae2-40f5-88f8-6a6c9ccd2968",
+					"based_on_hash": "uIub41sjw9bhETRoZ7FRnAObJDT8XO0qjvSVtYHzbTE",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f557b2cd-915f-408f-9c45-3ad24f72f075",
+					"based_on_id": "202e28b6-e519-4e6c-b3aa-f5b24bcb26e0",
+					"based_on_hash": "Hvk5Zh89Ai5dD6kwI+h2/Wd9BQ9Y4G92POatE6Jw818",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "b53cd3eb-ddf5-4abe-ae1f-a9c592fb05f9",
+					"based_on_id": "873414b3-8457-4657-a447-17def7eda4a5",
+					"based_on_hash": "YeiGzifTud4mpUwTMvgLZ7VzvjMwjVcnV++8/EuzL0g",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f58e455f-f1df-4302-aa2b-b8ef707cefcd",
+					"based_on_id": "5bfaf054-c99f-459c-be29-c5922062e575",
+					"based_on_hash": "FKyjIQVpzXY64eA4OweNELbwQHTycp+uUI9KZke0v9E",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "44124de3-f4d8-4d57-9616-003ff2db982e",
+			"based_on_id": "149239c1-aec9-4acc-a5fe-07b64cf6a323",
+			"based_on_hash": "oBXgu3PgreWBHmR9s8lObu9I03M6NDVzuRP7Bz8HpF4",
+			"name": "Language: Galactic Common",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "27dcdea6-d528-46d7-abe4-777deed3d48e",
+					"based_on_id": "ff972d9a-b925-4895-a489-f3d14999074d",
+					"based_on_hash": "PTZ6jSAPUWKOKlORCr9hRHiy6DHR1CAf503TJLM/3rM",
+					"disabled": true,
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f3dceebc-5676-45e6-92ae-525e87e64833",
+					"based_on_id": "e9f38c71-c4bd-45ee-a5e2-b47a33029f96",
+					"based_on_hash": "DtKZ0Vo3//iUI1VmkwoJuy/9b7gbaYUwli62x1ao3cs",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "98bcbbe0-3a1a-457c-91f0-38703fe34243",
+					"based_on_id": "6cd10ab4-c4f9-4764-a47d-0e77d105d862",
+					"based_on_hash": "fUM0rV7DN4zKRRDMYD33argFmiTplQMuyap/Z8YtnoE",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "60c90575-6a43-44a0-9167-bdb4597b31f7",
+					"based_on_id": "3c7caa3c-055e-4422-ac8e-6a2d632b391c",
+					"based_on_hash": "r29v7AGbJh2NjxafN936EHD4/hUhBNgHAPBe+e3906E",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f00d01f4-4993-4869-b4d9-7978ed8a2c2e",
+					"based_on_id": "231ba28d-11ce-44e1-8d23-074d40ca57c6",
+					"based_on_hash": "HqLvrw3qdEeiAvADO50D/apgO+NfM8busq4EtKRpOug",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "edf4e7be-8554-431d-9f2c-499e69e55af9",
+					"based_on_id": "152ad20b-dc58-4abb-b256-71da14dbb89c",
+					"based_on_hash": "U1q00bshFEYtwcuKsNfd5Af9POb375cPsilahaLXHCs",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "f3cc8664-86a7-48c4-8db9-1aeaedb527cb",
+					"based_on_id": "6304a0d6-80f3-4a5f-b3cc-3ba2ae0c8063",
+					"based_on_hash": "kimMn5ME4U4gnqtTMo1Qs3sgqqwKog+E6DVoO+uO/9c",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "43b834c6-f23e-4509-8f19-6cd06f040a35",
+					"based_on_id": "5818ab4a-2c4b-4c3e-a711-c4b6332daaca",
+					"based_on_hash": "1ZJQO6nenJpjW349i0CYwfgSVBF36JA6Htdf/zo3drY",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "8c8968f1-5f75-4247-8d0d-e978b2460a71",
+					"based_on_id": "1b77515e-5789-49a0-8238-7242900c8c2c",
+					"based_on_hash": "MoLKMZJQV3sFeR5r8Dm3Z09D1QeQqknOMkPCj0ZIQis",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "10d3d065-4454-4175-b8f1-10ff4a245d04",
+			"based_on_id": "45415e7e-fb62-44e0-83eb-c32528e8edfc",
+			"based_on_hash": "v4hJdJ28CYrh/6ua9NmSMjzgdI23Ji0+BaFyj9/jGPc",
+			"name": "Temperature Tolerance",
+			"physical": true,
+			"levels": "3",
+			"points_per_level": 1,
+			"reference": "B93",
+			"notes": "37F to 91F",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "5347930f-5005-4371-8261-19677831520e",
+			"based_on_id": "7ddbd12c-c28d-4b1f-b365-979d62c54215",
+			"based_on_hash": "zagYmGBq2J9zaeBstdj6Qk6D7oWqv5TC03JefOiY03M",
+			"name": "Cold-Blooded",
+			"physical": true,
+			"exotic": true,
+			"base_points": -5,
+			"reference": "B127",
+			"notes": "Under 50-degrees",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	],
+	"notes": [
+		{
+			"type": "note",
+			"version": 1,
+			"id": "539682ab-06e0-4c6c-aaf8-0c86c357113e",
+			"text": "Humanoid Reptiles."
+		},
+		{
+			"type": "note",
+			"version": 1,
+			"id": "31be2330-0d6b-40e6-a33d-e77373eb4c48",
+			"text": "Diet Prefers Meat, dislikes wheat."
+		}
+	]
+}

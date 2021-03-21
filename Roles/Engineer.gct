@@ -1,0 +1,1019 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "5a1bc6d0-0659-486e-8f94-1e1a7c4f70f5",
+	"advantages": [
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "b59be66a-1fcd-4462-aa50-b5f8bad03d24",
+			"based_on_id": "65e123ef-c9e0-47e6-8336-6c6c8c5b70e2",
+			"based_on_hash": "mwN0DEQNnQw8Eq+lPryHJ9np/YkfveFUpp7JK0LeGzU",
+			"name": "Engineer Advantage",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "d0cc5f45-e8ba-428f-bb49-7b444173bca3",
+					"based_on_id": "5490bee8-1ab3-4fdb-ab6e-d6c475f7f7c5",
+					"based_on_hash": "+FoZbB+8KYkb3TqPp/wKkSPUKRH8CWpp4FnIr20az7w",
+					"name": "Fit",
+					"physical": true,
+					"base_points": 5,
+					"reference": "B55",
+					"notes": "+1 to all HT rolls to stay conscious, avoid death, resist disease, resist poison; recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "59cb020b-9bba-4356-8360-6b4e8fdec9ab",
+					"based_on_id": "52c8489b-6bb8-45ad-a1bd-dc4e02c2c5d6",
+					"based_on_hash": "Hf/wWuBpYFxPXW4lbi8DAPq4hTcsKMKQLIXW/DeUipI",
+					"name": "Absolute Direction",
+					"mental": true,
+					"physical": true,
+					"base_points": 5,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "35c6b640-a046-4274-b44e-1fff684847a5",
+							"based_on_id": "201a6a2a-3f03-4cc3-9da9-6271d7ac44f1",
+							"based_on_hash": "zAlWa8xV5uIOGq8dJYv9PUZheTvZDgJNmV1Y+KXux8w",
+							"disabled": true,
+							"name": "Requires signal",
+							"reference": "B34",
+							"cost_type": "percentage",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "db358846-b938-47bb-a69d-62ceb3604d7b",
+							"based_on_id": "921643fa-87ce-4a58-a36c-f898bea9997a",
+							"based_on_hash": "y2m0qtxQpfXXAYe77uw+zkbeOqLHG5cl7YV3MxZKDdw",
+							"disabled": true,
+							"name": "3D Spatial Sense",
+							"reference": "B34",
+							"cost_type": "points",
+							"cost": 5,
+							"affects": "total",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"amount": 1,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "piloting"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "aerobatics"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "free fall"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "hyperspace"
+									}
+								},
+								{
+									"type": "skill_bonus",
+									"amount": 2,
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "space"
+									}
+								}
+							]
+						}
+					],
+					"reference": "B34",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "body sense"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "air"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "land"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 3,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "sea"
+							}
+						}
+					],
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "048e9dfd-8a25-45b5-a1c0-48155ebdc1c8",
+					"based_on_id": "1b2deb15-d1dd-4c94-8d4d-0993793fb0e3",
+					"based_on_hash": "DTwPuYDpgprRv64HoBntUtLeHqowN5rEdrvMLp070dI",
+					"name": "Talent (Artificer)",
+					"mental": true,
+					"levels": "1",
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "13316aed-e878-4de4-bd21-94004c5aa273",
+							"based_on_id": "aaad22d2-f027-4452-b995-6477d6d346aa",
+							"based_on_hash": "k22qxfUzDqAoSx3kKZC0Q9U9oPzBqAkDH1TWn3aZmNY",
+							"name": "Reaction Bonus",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total",
+							"notes": "Any employer"
+						}
+					],
+					"reference": "B90",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Armoury"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Carpentry"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electrician"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Electronics Repair"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Machinist"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Masonry"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Mechanic"
+							}
+						},
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Smith"
+							}
+						}
+					],
+					"categories": [
+						"Advantage",
+						"Talent"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "807f05af-a450-4e6f-856c-a3cb33ec94c6",
+					"based_on_id": "44921a86-9ba1-471b-a43e-d9c0b399c65b",
+					"based_on_hash": "tuddm9rA+nAKTfjSA7zVilBPIAASER4n9D62zjfwoqA",
+					"name": "Versatile",
+					"mental": true,
+					"base_points": 5,
+					"reference": "B96",
+					"categories": [
+						"Advantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "4b5ce4a6-db07-48cf-bd9f-44f45df80412",
+					"based_on_id": "5ea5378b-e883-45e1-b863-36928d6d63a3",
+					"based_on_hash": "YgQNL/gxNNz6qe0Jgzv0RiCyZfoqlqDiWFA8TyW8jsc",
+					"name": "Gadgeteer",
+					"mental": true,
+					"base_points": 25,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"version": 1,
+							"id": "145779c8-d422-4ac2-a711-2d53b9fb8a23",
+							"based_on_id": "9fcdfb82-8b66-4861-91e3-66e96ab196ba",
+							"based_on_hash": "Kc8rBt4L1/APakymKAxJAWfRsGkFPLNw3I38V9dAe64",
+							"disabled": true,
+							"name": "Quick",
+							"reference": "B57",
+							"cost_type": "points",
+							"cost": 25,
+							"affects": "total"
+						}
+					],
+					"reference": "B57",
+					"categories": [
+						"Advantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"version": 1,
+			"id": "efa240e5-b82f-403a-85ac-da8af567a8f2",
+			"based_on_id": "3d55c2c5-e099-402e-93e5-db3bd621fa20",
+			"based_on_hash": "NhVGXE505hdxOiP5Q0hQPk7SRNfMAOYg6s7+yBMa8Ho",
+			"name": "Engineer Disadvantage",
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "8add91ab-b649-40c5-ac8b-4999b7c6a297",
+					"based_on_id": "f3df6b22-c286-4b05-a187-d1f7a1b72732",
+					"based_on_hash": "PmRICDHSUABnDz34d00Uky2B3uQd/oinfTiBVMBQzyo",
+					"name": "Code of Honor (Professional)",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B127",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "c740d6cf-cab0-4091-abbf-ba1931fa3376",
+					"based_on_id": "c2d5553c-2e12-4400-9ff9-4a07d0f88798",
+					"based_on_hash": "0qo5J53RLZdZXj6XGIRFC7UMya7BwauoD7gsW//H3kM",
+					"name": "Absent-Mindedness",
+					"mental": true,
+					"base_points": -15,
+					"reference": "B122",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "bfc009cf-d4c0-4deb-ba9b-d46369af93e0",
+					"based_on_id": "9c02e70a-91d0-4717-8eb7-509237f57b0c",
+					"based_on_hash": "LOt2llz4FB4Evw/o3suvXlqxpMa7Gv9PJOm6IXDqsso",
+					"name": "Overconfidence",
+					"mental": true,
+					"base_points": -5,
+					"cr": 12,
+					"reference": "B148",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "053f3761-ccd7-49fe-b9ce-1b21cb0a031e",
+					"based_on_id": "5de617f1-1d80-4e58-81a5-da8cd6d9af15",
+					"based_on_hash": "2lITsahgcbHjKz2D37huX+MP4O7/XCBMYRaCbInnQSQ",
+					"name": "No Sense of Humor",
+					"physical": true,
+					"base_points": -10,
+					"reference": "B146",
+					"notes": "-2 Reaction",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "3b9a08d6-96e7-4fcf-a431-fd2e484d072d",
+					"based_on_id": "658eb00f-7514-4c34-8c29-25f500773288",
+					"based_on_hash": "Reg+cMDL7bJGBoV+PgrQgpMSj9XvQTyIfpns3wVMtVg",
+					"name": "Stubbornness",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B157",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"version": 1,
+					"id": "2da2e0ad-da32-4a2e-b771-11ab552db4af",
+					"based_on_id": "b94a58eb-78c9-42c2-85c8-75c2f0c39065",
+					"based_on_hash": "6fnWm1ZuUTo2MDp9J9YhIit94RygzFHkVp7IvCg8MVw",
+					"name": "Workaholic",
+					"physical": true,
+					"base_points": -5,
+					"reference": "B162",
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"version": 1,
+			"id": "a5f69546-508e-4698-89d5-c623f8b6f742",
+			"based_on_id": "7f38f47a-217f-4ed3-9561-680d7f518bf8",
+			"based_on_hash": "6SetRPHU7R5ioqWYlVgAkIfUruD+Tb7di2eHoCchQF0",
+			"name": "Engineer",
+			"reference": "F215",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "baf2abc8-4c18-4b50-9946-c67f346733bd",
+					"based_on_id": "a0b86469-183e-4be3-8e44-05681d09da4d",
+					"based_on_hash": "uCRYqCUsvlKSyhqXGbxI0Ad6IFh7jzGWiaZqDUjMR2s",
+					"name": "Architecture",
+					"reference": "B176",
+					"tech_level": "",
+					"difficulty": "IQ/A",
+					"points": 4,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Engineer",
+							"specialization": "Civil",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Design/Invention"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "6cd0b6cb-5b98-44d0-be59-177ad35e6d14",
+					"based_on_id": "b48deb66-4abe-4916-97e5-0c91e8d3639a",
+					"based_on_hash": "wYSHIsB12HG8mWdpD3D07zj5OEykMUgIWF9+Z9WrQsU",
+					"name": "Carpentry",
+					"reference": "B183",
+					"difficulty": "IQ/E",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Craft"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "511e22aa-b763-4eb9-a170-8823f693edb0",
+					"based_on_id": "c0c61ffa-13d5-46aa-a50b-9376a1b29212",
+					"based_on_hash": "VDK9IzH00mrZLR5t+47R5RAV9WWsoZPMW0P8pc6Qm2E",
+					"name": "Engineer",
+					"reference": "B190",
+					"specialization": "Materials",
+					"tech_level": "",
+					"difficulty": "IQ/H",
+					"points": 2,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "metallurgy"
+										},
+										"specialization": {
+											"compare": "is"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "chemistry"
+										},
+										"specialization": {
+											"compare": "is"
+										}
+									}
+								]
+							}
+						]
+					},
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Chemistry",
+							"modifier": -6
+						},
+						{
+							"type": "Skill",
+							"name": "Metallurgy",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Design/Invention",
+						"Engineer"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "21032f69-b9ec-45e9-9627-3bc20f0f1b6c",
+					"based_on_id": "7bfc01aa-d972-417c-bdcb-a1aa4d4a5d24",
+					"based_on_hash": "smLjpbxIRvLgs1dPaPuumRDD7s+LMRxSZ0wvrX91ZkU",
+					"name": "Engineer",
+					"reference": "B190",
+					"specialization": "Microtechnology",
+					"tech_level": "",
+					"difficulty": "IQ/H",
+					"points": 2,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 5
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					},
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Mechanic",
+							"specialization": "Micromachines",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Design/Invention",
+						"Engineer"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "bc040182-60eb-43f6-8cd8-e3ccaa64a787",
+					"based_on_id": "9b08f583-31b7-4a46-8509-72b2eaceb9c5",
+					"based_on_hash": "ps1NluvDmqGzYhRXPVQ0GoiXfAXAK9vYBm2CV90gUug",
+					"name": "Engineer",
+					"reference": "B190",
+					"specialization": "Starships",
+					"tech_level": "",
+					"difficulty": "IQ/H",
+					"points": 2,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"when_tl": {
+							"compare": "at_least",
+							"qualifier": 5
+						},
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					},
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Mechanic",
+							"specialization": "Starships",
+							"modifier": -6
+						}
+					],
+					"categories": [
+						"Design/Invention",
+						"Engineer"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "ad0b420b-9a06-43d1-a44f-62c4ce4cca74",
+					"based_on_id": "c06ab2b3-771e-453a-8b28-7e54d55532f3",
+					"based_on_hash": "5phXQrKw77cXVI3kn0sf+Ue5UBzqlgzmcAdDXxnlp5k",
+					"name": "Forced Entry",
+					"reference": "B196",
+					"difficulty": "DX/E",
+					"points": 2,
+					"categories": [
+						"Criminal/Street",
+						"Police",
+						"Spy"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "c1a926fb-ba88-4312-bcbf-8e6b98231783",
+					"based_on_id": "5d729298-9598-46cd-a070-af2843702de0",
+					"based_on_hash": "GHQUthaTBUGxuCXkHB2XH1uOt6mNT++5QXA5hsPZr2w",
+					"name": "Masonry",
+					"reference": "B207",
+					"difficulty": "IQ/E",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Craft"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "117fb1a9-09b5-4e53-ad9c-0c9e6b6c7696",
+					"based_on_id": "2f129860-c96a-49cf-91cb-666ff564df6c",
+					"based_on_hash": "jDJPqF0mO8iw3jN3CHyqRTQCHQu/z5DZURjJ+HOJ7zY",
+					"name": "Mechanic",
+					"reference": "B207",
+					"tech_level": "",
+					"difficulty": "IQ/A",
+					"points": 3,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Engineer",
+							"specialization": "Aerospace",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Repair/Maintainance"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "b7107f51-61ef-4ae9-9eac-81302be84a96",
+					"based_on_id": "9ffc8d0f-0cfd-4055-87da-d807a91a5f08",
+					"based_on_hash": "qBeVdq2TJrCk5BJSLQxthKuviePpETN7+289EJlG0r4",
+					"name": "Mechanic",
+					"reference": "B207",
+					"specialization": "Fusion Reactor",
+					"tech_level": "",
+					"difficulty": "IQ/A",
+					"points": 2,
+					"defaults": [
+						{
+							"type": "IQ",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Engineer",
+							"specialization": "Fusion Reactor",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Machinist",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Mechanic",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Repair/Maintainance"
+					]
+				},
+				{
+					"type": "skill",
+					"version": 1,
+					"id": "acdaf957-0ef1-4449-9f52-c50ed8cb9531",
+					"based_on_id": "6d95def9-03eb-4f58-a8dc-fa568b48a291",
+					"based_on_hash": "0q0zZcyGIDMt7stACLj4yMFwd18HtI01P5Lvf1Q8F1o",
+					"name": "Scrounging",
+					"reference": "B218",
+					"difficulty": "Per/E",
+					"points": 1,
+					"defaults": [
+						{
+							"type": "Per",
+							"modifier": -4
+						}
+					],
+					"categories": [
+						"Criminal/Street"
+					]
+				}
+			]
+		}
+	],
+	"equipment": [
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "8915a07d-30fa-416b-a539-3c4f973f2256",
+			"based_on_id": "5cd672f4-fb2b-4330-b3cf-cdcf391c8cf6",
+			"based_on_hash": "LhgiWy9lneEAIAmP6fmpGcoeOrH25b0PjcBKLc0OYEE",
+			"description": "Backpack",
+			"tech_level": "5",
+			"value": "60",
+			"weight": "3 lb",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"categories": [
+				"General Equipment"
+			],
+			"open": false,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "567604cf-0951-4070-ab67-2ab645717dd1",
+					"based_on_id": "01f8a794-1a0f-45df-b5b0-4438a51f3e8f",
+					"based_on_hash": "FidOnC/ol4/cBwIKEsXx1SWaWMVg4wkfLfKUMzqzFE4",
+					"quantity": 1,
+					"description": "GPS",
+					"tech_level": "8",
+					"value": "100",
+					"weight": "0.25 lb",
+					"reference": "HT53",
+					"notes": "2xS/40hrs.",
+					"categories": [
+						"General Equipment"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "da6c3e3b-d8cd-47ff-a076-73a23a43b47a",
+					"based_on_id": "a65f6478-c01d-47fb-a21c-9988c1971887",
+					"based_on_hash": "U74lg6rBoq2iDZrquLqGVlvyHduglJ7+Gq5+NvcsJFQ",
+					"quantity": 1,
+					"description": "Flashlight",
+					"tech_level": "8",
+					"value": "20",
+					"weight": "1 lb",
+					"reference": "HT52",
+					"notes": "10-yard beam. 2xS/50hrs.",
+					"categories": [
+						"General Equipment"
+					]
+				}
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0febb83b-1198-4b6e-9841-b123e973d6b6",
+			"based_on_id": "419f2771-893b-434e-a6a7-57bb77df8a5c",
+			"based_on_hash": "QOzYMbJno5OjKW09ZxIiU9p86qlHX6QZReQRv+iBfUw",
+			"quantity": 1,
+			"description": "Jumpsuit (Departmental)",
+			"value": "100",
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from others in your department"
+				}
+			],
+			"notes": "+1 Reaction from dept.",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "81dd7bde-9cca-43e9-b790-7ea444a4e243",
+			"based_on_id": "8f94ec93-8e96-4ab6-b9cb-850328822003",
+			"based_on_hash": "3Sunt6H1oX3XQ8fAzDFQXyNhXmhzNNGQwi82kCAw07g",
+			"quantity": 1,
+			"description": "Boots",
+			"tech_level": "6",
+			"value": "100",
+			"weight": "4 lb",
+			"reference": "HT68",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "feet"
+				}
+			],
+			"notes": "DR+2 to toes.",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "068bb5eb-5026-4668-a220-3642e0fc3e6a",
+			"based_on_id": "efda5af8-254e-4edd-be5d-d8345b7e2ac9",
+			"based_on_hash": "Jo2So6MtBoQoRc24Q4P/2B0wKrElRqx+9c2eY1iRyYE",
+			"quantity": 1,
+			"description": "Hazard Vest",
+			"tech_level": "5",
+			"value": "10",
+			"weight": "5 lb",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "0a6f4f74-1aba-49a7-90a5-a1e9c7c45436",
+			"based_on_id": "3a67714b-ecfe-47af-bd6d-8bc6c4c2fc9e",
+			"based_on_hash": "tkYF/Mirwy5wucY+u5WkSD6+RzzAWNrS5r8bic/1CoY",
+			"description": "Toolbelt",
+			"value": "50",
+			"weight": "4 lb",
+			"categories": [
+				"Storage"
+			],
+			"open": false,
+			"children": [
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "3b5a04f0-3efa-4623-80d6-f6acb0209741",
+					"based_on_id": "b2a303d1-5079-467c-8150-38b77000d378",
+					"based_on_hash": "j0YhX+ZfPFEJoFHfqZB/a9G/qBg+IxGZwx1Sh4cCTtw",
+					"quantity": 1,
+					"description": "Cable Coil",
+					"value": "20",
+					"weight": "0.5 lb",
+					"categories": [
+						"Electronics",
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "4efd5618-1e44-4e40-aa2a-f0d5b436a421",
+					"based_on_id": "af130091-0996-4941-9d65-00a88a024285",
+					"based_on_hash": "199HWb4OiVMRlquZQfQb8m1luJVX+W/T0zYm1Ju8IkE",
+					"quantity": 1,
+					"description": "Screwdriver",
+					"value": "25",
+					"weight": "0.5 lb",
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "4f13d92a-e55a-47c7-a1ca-e4a684583966",
+					"based_on_id": "6eb80c17-a731-4b94-b6d2-bf5da58755bd",
+					"based_on_hash": "8uK1goTSC2B0DgcyClzTdv3jmUsf3ZounO5Y765Z1ZQ",
+					"quantity": 1,
+					"description": "Welding Tool (Basic)",
+					"value": "25",
+					"weight": "0.5 lb",
+					"uses": 15,
+					"max_uses": 15,
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "15dbda10-7b61-45ed-be00-f0afc123b079",
+					"based_on_id": "184f0a8c-8e35-47b0-94c7-ed7b626fec7a",
+					"based_on_hash": "NXUOchOSqgAjbKtfsSVgYDWZ31ltFKTRIucoxW0bDTw",
+					"quantity": 1,
+					"description": "Wirecutters",
+					"value": "25",
+					"weight": "0.5 lb",
+					"categories": [
+						"Tools"
+					]
+				},
+				{
+					"type": "equipment",
+					"version": 1,
+					"id": "0cb905f2-1263-43fb-8242-a8dcb4dbb2ba",
+					"based_on_id": "988fae8a-378c-47d0-9675-dbb316e775ac",
+					"based_on_hash": "hzwyuWb2oJt+TNonSZzOwaY0AfMMkgipOTYDncytmz8",
+					"quantity": 1,
+					"description": "Wrench",
+					"value": "25",
+					"weight": "0.5 lb",
+					"categories": [
+						"Tools"
+					]
+				}
+			]
+		}
+	]
+}

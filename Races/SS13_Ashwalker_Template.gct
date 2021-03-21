@@ -1,0 +1,578 @@
+{
+	"type": "template",
+	"version": 1,
+	"id": "d30a5bda-6600-426d-99eb-eb9d5a460fb8",
+	"advantages": [
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "80f90d24-0a37-4145-a1d4-2b9013626068",
+			"based_on_id": "43deafab-dce4-4e71-b42c-40847484dcb8",
+			"based_on_hash": "dpmuSk5OYw5mRg204oi1szx+fr4O5LU0cab24drIHZA",
+			"name": "Low TL",
+			"social": true,
+			"levels": "9",
+			"points_per_level": -5,
+			"reference": "B22",
+			"categories": [
+				"Disadvantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "bbfe0aba-d3d2-4fd7-870c-4122fc490f39",
+			"based_on_id": "f3ec0e8b-53d2-4f14-ba46-29c1f62a7b7b",
+			"based_on_hash": "lN5dprGehJQ6ujS/kXVUY56uIgL2qt3NF7i0HOkqIyY",
+			"name": "Increased Strength",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 10,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "d86c61d0-9c2d-498c-b92f-9fb3b3240941",
+					"based_on_id": "fc2b398f-467b-4c36-857b-98087975f0c4",
+					"based_on_hash": "fU3Hqweb/Bs1aZyjk4UsNusLMqWJvpFitqOAH6h9C4o",
+					"disabled": true,
+					"name": "No Fine Manipulators",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "5d007d8b-d934-48f4-8960-81cf1f54928c",
+					"based_on_id": "89e24b12-233b-4ad9-a77a-934e7bc640f7",
+					"based_on_hash": "BfOHTvqU9B57IJp7NLH9CusCR07oE4b5X8ipigqEKWs",
+					"disabled": true,
+					"name": "Size",
+					"reference": "B15",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"levels": 1
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "cf62cc92-85e6-45fe-a5eb-519703528ffc",
+					"based_on_id": "4f3a7bdb-ed81-4735-87e8-d9eaeb4856c7",
+					"based_on_hash": "GWcYQu54Bd4uUCDO4oeu1OTMpZV1K1WkP8osokuPswg",
+					"disabled": true,
+					"name": "Super-Effort",
+					"reference": "SU24",
+					"cost_type": "percentage",
+					"cost": 300,
+					"affects": "total"
+				}
+			],
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "st"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "d482aabd-b5c4-4edc-83ca-1bce2402defe",
+			"based_on_id": "01e6b5a6-d396-4011-9f2e-bc943712fac9",
+			"based_on_hash": "GwaOCbhvHwKZdoDuv7a3VO9pUs4KXusmizCmg4sRxO4",
+			"name": "Increased Health",
+			"physical": true,
+			"levels": "2",
+			"points_per_level": 10,
+			"reference": "B14",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": 1,
+					"per_level": true,
+					"attribute": "ht"
+				}
+			],
+			"categories": [
+				"Advantage",
+				"Attribute"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "4c4265bc-25f1-48ca-ab3b-c4f56a4e15d3",
+			"based_on_id": "233a65c5-8947-4e43-90db-db1b1c68b5c0",
+			"based_on_hash": "KhUk79ZfqxeBLDqY/3G34s4J1/l5+7LhuF4O7dbrzQI",
+			"name": "Doesn't Breathe",
+			"physical": true,
+			"exotic": true,
+			"base_points": 20,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "1aa456be-41a2-4343-b6e7-4cbe87b6677f",
+					"based_on_id": "f13441e8-6a94-4715-8359-eeda924394c8",
+					"based_on_hash": "OKmYqzd2vFiPFhWtPXISY4PZyS6EIUJFlqbOH50hzYg",
+					"disabled": true,
+					"name": "Gills",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "907426f6-ffd1-4d88-a62b-bffdd708bec6",
+					"based_on_id": "b43ccd22-d6c7-4f5a-b280-55943589bd9d",
+					"based_on_hash": "7EqDuu7GMFUB5/1Zw9PdhQrEIcP6dYgZYVHfO7EWQJM",
+					"disabled": true,
+					"name": "Gills",
+					"reference": "B49",
+					"cost_type": "points",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Suffocates in air"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "29dadb94-28dc-4510-816e-a146b3316b05",
+					"based_on_id": "1ba12fe1-335e-4d84-9bbe-bbceb062c966",
+					"based_on_hash": "1K+2aONlQvXK4xZyvDusQNcglC1EuZGm/gEDLHnijkg",
+					"disabled": true,
+					"name": "Oxygen Absorption",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -25,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0f8c5b63-d35c-4692-8694-e079926a7161",
+					"based_on_id": "c6fc6b99-b257-41e8-b7f9-4737752adaa9",
+					"based_on_hash": "in145zdsZk1OrNyn1ttqCEirCfEaUFMdRGF/fx79r80",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total",
+					"notes": "Can hold breath 25 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "69edc339-e3b7-480b-a976-739b5b0fc343",
+					"based_on_id": "191bb6c2-2e0a-4b94-bf46-75db1d9e4b04",
+					"based_on_hash": "hkbayONQ3ehlMrfJGUCZXj1ssJkwYQzKOpaUHnivCQc",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -40,
+					"affects": "total",
+					"notes": "Can hold breath 50 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ca35efba-8d0a-4077-9bed-86b37f9ef9cc",
+					"based_on_id": "9801cedb-4b05-4d86-b65f-3c0d4418b8a7",
+					"based_on_hash": "u6CER8lLs/M/pdPI2ihlomVPy+HGlMp+epUiG5JQ58w",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -30,
+					"affects": "total",
+					"notes": "Can hold breath 100 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "24f6ccb4-fb2e-4994-9551-145dc8136454",
+					"based_on_id": "8b514228-a261-4a95-ab1d-45b893a77df1",
+					"based_on_hash": "QCSLwk/h9TLtCrINfgoPFJFaTzc9K4WcCPwSL4YLbc4",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -20,
+					"affects": "total",
+					"notes": "Can hold breath 200 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "708697cc-1825-437e-901d-73892732f03d",
+					"based_on_id": "cc70e80e-c5a7-4193-bd17-50da8902073b",
+					"based_on_hash": "FOQweaUCQ4NJXfu7oKDi6n/AB3rVhSNdNvmXNTN0K0o",
+					"disabled": true,
+					"name": "Oxygen Storage",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -10,
+					"affects": "total",
+					"notes": "Can hold breath 300 times as long as normal"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "008715e3-49e2-4cb0-b798-0f31e449dfc1",
+					"based_on_id": "5bf5ac51-9155-48dd-a836-c61786f9e602",
+					"based_on_hash": "CdMtrKjGGitcJxLOsM5q5ztmnJQpYc6S7kM5BX2UC6c",
+					"disabled": true,
+					"name": "Oxygen Combustion",
+					"reference": "B49",
+					"cost_type": "percentage",
+					"cost": -50,
+					"affects": "total"
+				}
+			],
+			"reference": "B49",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "3ac97953-d0ae-42a4-a544-a955132c3655",
+			"based_on_id": "15d562e1-5443-4347-8150-55e2c4de1fc8",
+			"based_on_hash": "jAeDDQrvwfMykmquczbnE6eb3MVZ/L6r/Vg4Fj4LKGc",
+			"name": "Sharp Claws",
+			"physical": true,
+			"base_points": 5,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Slash",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr"
+					},
+					"usage": "Kick",
+					"reach": "C,1",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Karate",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling",
+							"modifier": -2
+						}
+					]
+				}
+			],
+			"reference": "B42",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "7f86db80-b507-45d5-8664-1a63391cd68c",
+			"based_on_id": "3f3c1d5c-2d6e-490a-a063-e69c37c4bedf",
+			"based_on_hash": "VVlH2YnixwFn5Kt4yDQQcCX9/0+ylCmYNWH/QttyJsE",
+			"name": "Nonhuman Stigma",
+			"social": true,
+			"base_points": -5,
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from humans and robots who care about species."
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "8a130608-b506-4ca8-9b0a-ea4e4d252e2e",
+			"name": "-1 SM",
+			"physical": true,
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"attribute": "sm"
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "49e40dd4-e00f-43f9-b44b-371967d9b48b",
+			"based_on_id": "ab59e4ec-d3cd-4e97-b11e-f1530babef39",
+			"based_on_hash": "gmlm5pduB9jnoXtSo9PZJ0SNZVMk9bBXV3qU/IFpims",
+			"name": "Sharp Teeth",
+			"physical": true,
+			"exotic": true,
+			"base_points": 1,
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "thr",
+						"base": "-1"
+					},
+					"usage": "Bite",
+					"reach": "C",
+					"parry": "No",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "DX"
+						}
+					]
+				}
+			],
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "0e62730d-aa1a-466a-876b-a4dfc4f8c37b",
+					"based_on_id": "37c1963f-c058-4104-ae74-68b2028bedfd",
+					"based_on_hash": "Roh3PF1UsZIzaRAMLMOCWanR8G6q8xuA90pEf+ncVMs",
+					"disabled": true,
+					"name": "Provided by Vampiric Bite",
+					"reference": "B96",
+					"cost_type": "points",
+					"cost": -1,
+					"affects": "total"
+				}
+			],
+			"reference": "B91",
+			"categories": [
+				"Perk"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "1193bcc3-0a97-4262-9956-874ca89dfee8",
+			"based_on_id": "24c1ecd7-204d-42f8-a837-171654b32852",
+			"based_on_hash": "70sa8v50y+h7xxq4v33DKUsSoXc1+KuHucksXeBWnKE",
+			"name": "Language: Draconic",
+			"mental": true,
+			"modifiers": [
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "a63b1f9f-7673-4e0e-b492-74dd14d7b507",
+					"based_on_id": "1ec9185c-f680-4993-9cf3-a4e3d4f253d5",
+					"based_on_hash": "1aMItxm9vSfZ7wu7AQyXhuSVamb13603uqRTrtCGyMw",
+					"name": "Native",
+					"reference": "B23",
+					"cost_type": "points",
+					"cost": -6,
+					"affects": "total"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "ac7bde99-d9a0-473e-986b-613794d8c5e4",
+					"based_on_id": "7c88bd4f-6b48-4d24-9a29-2bc30ed1e0c6",
+					"based_on_hash": "ddxU54hsdJhjqtNOojS1rvsGPp+K9jso9z52T+be3bY",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "bdd9a701-911f-440e-8c16-985af6a248bf",
+					"based_on_id": "9bf921e9-f8ce-45d3-8e32-943a2dee4edd",
+					"based_on_hash": "uge14xYv1nEZ/oHuTwdIouLLLxP0FXT3DTjhU4qIyKw",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "2ea51a3f-8d3d-4c3f-a15a-5e1074672016",
+					"based_on_id": "37c4a5a8-3866-4a71-9b29-1c8b59f67cd5",
+					"based_on_hash": "1HhWEOYF+4zxcijg4e7YriYYOJxsgTRtefGG9jzwMPc",
+					"disabled": true,
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "fa91a880-af2b-40d5-b9a8-b36430d02c47",
+					"based_on_id": "0a5b38e4-ed6d-4258-9026-84ba2b15c985",
+					"based_on_hash": "8CmWqkHOimOHySVPrm2KeV1Fo3RSk0ZSaqzg/FuVn7g",
+					"name": "Spoken",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "85c3bb1c-0152-4f6d-a6c8-5efe7d83090e",
+					"based_on_id": "d16a8737-93d5-4f12-8dff-93dd3f45ae08",
+					"based_on_hash": "Y9sY5iwWaI5JYcX9GxB0uS1RMT/cgRL92QMRYniCcNg",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 0,
+					"affects": "total",
+					"notes": "None"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "daa978cd-319b-4871-b554-d09849455644",
+					"based_on_id": "f557b2cd-915f-408f-9c45-3ad24f72f075",
+					"based_on_hash": "NkdKb3WrD4TnljxlRx0NqVP1kvZPKjLiCt4e3e3fTdI",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 1,
+					"affects": "total",
+					"notes": "Broken"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "da6262a0-5c96-4c52-b72c-2f7681c2c325",
+					"based_on_id": "b53cd3eb-ddf5-4abe-ae1f-a9c592fb05f9",
+					"based_on_hash": "L9YSoJlpQv1iqpybihMy/nifcyCT5qyXnDGf1PRaDPs",
+					"disabled": true,
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 2,
+					"affects": "total",
+					"notes": "Accented"
+				},
+				{
+					"type": "modifier",
+					"version": 1,
+					"id": "121cfeac-498f-4331-908d-ed8c201d6f76",
+					"based_on_id": "f58e455f-f1df-4302-aa2b-b8ef707cefcd",
+					"based_on_hash": "WgIDg0eINyo+TcqiRYoE/whfbf8v+law3FtEyAPZWP4",
+					"name": "Written",
+					"reference": "B24",
+					"cost_type": "points",
+					"cost": 3,
+					"affects": "total",
+					"notes": "Native"
+				}
+			],
+			"reference": "B24",
+			"categories": [
+				"Advantage",
+				"Language"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "11b7d274-26e0-4b4e-aaae-9a4dd5d4a415",
+			"based_on_id": "10d3d065-4454-4175-b8f1-10ff4a245d04",
+			"based_on_hash": "6Dc8l4yIgbWCVtmJvNWU24rCRNGU+T86XAYqLTZZTJ4",
+			"name": "Temperature Tolerance",
+			"physical": true,
+			"levels": "3",
+			"points_per_level": 1,
+			"reference": "B93",
+			"notes": "37F to 91F",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"version": 1,
+			"id": "933099e6-e0b7-41d0-b4f1-73f3970deaa9",
+			"based_on_id": "5347930f-5005-4371-8261-19677831520e",
+			"based_on_hash": "mt5619QSjlvF8SaTAYXD/JbmGht+na/FWjAok9FzBt0",
+			"name": "Cold-Blooded",
+			"physical": true,
+			"exotic": true,
+			"base_points": -5,
+			"reference": "B127",
+			"notes": "Under 50-degrees",
+			"categories": [
+				"Disadvantage"
+			]
+		}
+	]
+}
