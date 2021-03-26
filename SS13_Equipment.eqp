@@ -6,348 +6,6 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "b2a303d1-5079-467c-8150-38b77000d378",
-			"quantity": 1,
-			"description": "Cable Coil",
-			"value": "20",
-			"weight": "0.5 lb",
-			"categories": [
-				"Electronics",
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "00e53e34-44b0-41ab-9e1d-cbae38ce850f",
-			"based_on_id": "a89f962a-aad8-4b64-8225-e3ed7667f2a2",
-			"based_on_hash": "g58VuS7uxDNJEHq97KKYhoyHkHJzGDC+mGqe7nrri84",
-			"quantity": 1,
-			"description": "Disabler",
-			"tech_level": "9",
-			"legality_class": "3",
-			"value": "3000",
-			"weight": "3.5 lb",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "HT-3 aff"
-					},
-					"strength": "4†",
-					"accuracy": "8",
-					"range": "160/470",
-					"rate_of_fire": "3",
-					"shots": "50(5)",
-					"bulk": "-4",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Pistol",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Rifle"
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Projector",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"notes": "50Shts",
-			"categories": [
-				"Missile Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "00ca7288-f999-42d4-8bad-c53056463e6b",
-			"quantity": 1,
-			"description": "Jumpsuit (Grey)",
-			"value": "100",
-			"weight": "1.5 lb",
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"amount": -1,
-					"situation": "from command members"
-				},
-				{
-					"type": "reaction_bonus",
-					"amount": 1,
-					"situation": "from other assistants"
-				}
-			],
-			"notes": "+1 Greytiding",
-			"categories": [
-				"Clothing"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "bbd0c7b3-dbf4-4adb-9f99-883e74b622ea",
-			"based_on_id": "f8158a96-bdf1-4812-b869-cbde0cdb86fc",
-			"based_on_hash": "iPCL+fJuVGUNyyblpR7RAVMHBmeFAzyS3oHgBiyDIJ4",
-			"quantity": 1,
-			"description": "Hybrid Energy Gun",
-			"tech_level": "9",
-			"legality_class": "2",
-			"value": "4000",
-			"weight": "4.3 lb",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "burn",
-						"base": "1d-3"
-					},
-					"usage": "Harm",
-					"accuracy": "8",
-					"range": "100/250",
-					"rate_of_fire": "3",
-					"shots": "20(5)"
-				},
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "HT-3 aff"
-					},
-					"usage": "Disable",
-					"accuracy": "8",
-					"range": "100/250",
-					"rate_of_fire": "3",
-					"shots": "30(5)"
-				}
-			],
-			"notes": "20Shts Harm/30Shts Disable",
-			"categories": [
-				"Missile Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a58b224b-835f-4bc7-b780-0c33d6fe2757",
-			"based_on_id": "a89f962a-aad8-4b64-8225-e3ed7667f2a2",
-			"based_on_hash": "g58VuS7uxDNJEHq97KKYhoyHkHJzGDC+mGqe7nrri84",
-			"quantity": 1,
-			"description": "Laser Gun",
-			"tech_level": "9",
-			"legality_class": "2",
-			"value": "3500",
-			"weight": "4 lb",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "burn",
-						"base": "1d-3"
-					},
-					"strength": "4",
-					"accuracy": "8+1",
-					"range": "160/470",
-					"rate_of_fire": "3",
-					"shots": "40(5)",
-					"bulk": "-4",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Pistol",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Rifle"
-						},
-						{
-							"type": "Skill",
-							"name": "Beam Weapons",
-							"specialization": "Projector",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"notes": "40Shts",
-			"categories": [
-				"Missile Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "512c3619-df3a-450a-abec-11658c206f7c",
-			"quantity": 1,
-			"description": "Multitool",
-			"value": "30",
-			"weight": "0.5 lb",
-			"categories": [
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "b813c86b-4158-48bb-ae26-b0e9c35fa07c",
-			"quantity": 1,
-			"description": "Jumpsuit (Plain)",
-			"value": "100",
-			"weight": "1.5 lb",
-			"categories": [
-				"Clothing"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "419f2771-893b-434e-a6a7-57bb77df8a5c",
-			"quantity": 1,
-			"description": "Jumpsuit (Departmental)",
-			"value": "100",
-			"weight": "1.5 lb",
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"amount": 1,
-					"situation": "from others in your department"
-				}
-			],
-			"notes": "+1 Reaction from dept.",
-			"categories": [
-				"Clothing"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "af130091-0996-4941-9d65-00a88a024285",
-			"quantity": 1,
-			"description": "Screwdriver",
-			"value": "25",
-			"weight": "0.5 lb",
-			"categories": [
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment_container",
-			"version": 1,
-			"id": "3a67714b-ecfe-47af-bd6d-8bc6c4c2fc9e",
-			"description": "Toolbelt",
-			"value": "50",
-			"weight": "4 lb",
-			"categories": [
-				"Storage"
-			],
-			"open": true
-		},
-		{
-			"type": "equipment_container",
-			"version": 1,
-			"id": "1b09afbe-860a-4217-ac15-f681a61d2413",
-			"description": "Toolbox",
-			"value": "50",
-			"weight": "5 lb",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "sw",
-						"base": "+2"
-					},
-					"strength": "7",
-					"reach": "1"
-				}
-			],
-			"categories": [
-				"Melee Weapon",
-				"Storage"
-			],
-			"open": true
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "6eb80c17-a731-4b94-b6d2-bf5da58755bd",
-			"quantity": 1,
-			"description": "Welding Tool (Basic)",
-			"value": "25",
-			"weight": "0.5 lb",
-			"uses": 15,
-			"max_uses": 15,
-			"categories": [
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "184f0a8c-8e35-47b0-94c7-ed7b626fec7a",
-			"quantity": 1,
-			"description": "Wirecutters",
-			"value": "25",
-			"weight": "0.5 lb",
-			"categories": [
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "988fae8a-378c-47d0-9675-dbb316e775ac",
-			"quantity": 1,
-			"description": "Wrench",
-			"value": "25",
-			"weight": "0.5 lb",
-			"categories": [
-				"Tools"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
 			"id": "a8a5156b-0602-4703-a996-9f57ce86169c",
 			"based_on_id": "100360b9-4f7b-4676-960c-cc8773f1e0d7",
 			"based_on_hash": "ndsVhPPF94Lbu2auqvPb9gG9cCcCkantvwxBQsFJ+LA",
@@ -373,227 +31,6 @@
 			"notes": "DR+20 vs. burning or crushing explosive damage inflicted by any type of laser. Flexible.",
 			"categories": [
 				"Armor"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "d9c27313-92f5-4361-9eac-a96b1775f890",
-			"based_on_id": "f0c12cc9-288c-4fae-9670-417ecb5f19e8",
-			"based_on_hash": "c8BSIfznPxbngeIWJrJIYv5S+lBzTzWlSrYFapbUPA0",
-			"quantity": 1,
-			"description": "Jackboots",
-			"tech_level": "9",
-			"value": "150",
-			"weight": "3 lb",
-			"reference": "UT173",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 4,
-					"location": "feet"
-				}
-			],
-			"notes": "DR+4 vs. piercing and cutting.",
-			"categories": [
-				"Armor",
-				"Footwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "8f94ec93-8e96-4ab6-b9cb-850328822003",
-			"based_on_id": "4f263b1c-e1dc-4940-bc5e-ef4723822082",
-			"based_on_hash": "c7MoqJnPapEQAS94toUCslhEellMTFLGMvTxfe894gA",
-			"quantity": 1,
-			"description": "Boots",
-			"tech_level": "6",
-			"value": "100",
-			"weight": "4 lb",
-			"reference": "HT68",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 2,
-					"location": "feet"
-				}
-			],
-			"notes": "DR+2 to toes.",
-			"categories": [
-				"Footwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "22eb9556-8c5c-4905-a09c-1d416159552a",
-			"based_on_id": "eac0fb5f-39d3-4f4d-b14a-2614055a48ee",
-			"based_on_hash": "R4MC5ezmxOaEo+m9IzBx7Bmvz61daMKzlzk5nF9I+fw",
-			"quantity": 1,
-			"description": "Bulletproof Vest",
-			"tech_level": "6",
-			"value": "750",
-			"weight": "8 lb",
-			"reference": "HT66",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 6,
-					"location": "torso"
-				}
-			],
-			"categories": [
-				"Armor"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "753f54dd-5c4b-4df2-ac7f-e8a9a3d9dbd0",
-			"based_on_id": "176acdb0-e699-484a-a5e7-3e79f4898e1d",
-			"based_on_hash": "mh1YrVODN+zctgY0oZZcepaDycR1S++SWAGhugjRVvs",
-			"quantity": 1,
-			"description": "Sunglasses",
-			"tech_level": "5",
-			"value": "50",
-			"reference": "HT71",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "eyes"
-				}
-			],
-			"categories": [
-				"Armor",
-				"Eyewear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "00b06bc8-a966-4207-8788-f5483f9a088f",
-			"based_on_id": "121e4f48-823a-4481-be1f-12b8b7991d71",
-			"based_on_hash": "KQoCloC8hxGe+yJFGYCWhyxmZaAZpfiU8CQ4i1+qEN0",
-			"quantity": 1,
-			"description": "Gas Mask",
-			"tech_level": "6",
-			"value": "100",
-			"weight": "4 lb",
-			"reference": "HT72",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 2,
-					"location": "eyes"
-				},
-				{
-					"type": "dr_bonus",
-					"amount": 2,
-					"location": "face"
-				}
-			],
-			"categories": [
-				"Internals"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "222a1755-1b13-4e4e-8063-13f412ff5744",
-			"based_on_id": "d663b355-a00c-4613-aca1-dc5cc5cb9f96",
-			"based_on_hash": "wdLIr8tOpF5ElLTNRIesyAB5u1xFtLJVXKNZSwHcO1A",
-			"quantity": 1,
-			"description": "Breath Mask",
-			"tech_level": "8",
-			"value": "50",
-			"weight": "0.5 lb",
-			"reference": "HT72",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "face"
-				}
-			],
-			"categories": [
-				"Internals"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "7775e8f2-7d11-402d-bf4b-5d0c2c03c9dd",
-			"based_on_id": "c00570b0-16ce-47d9-88dd-d1394f0d587b",
-			"based_on_hash": "fRuCYf8I58MEC4zk7e2ZM4VVsyjKxoe9Ws7y1kX+Tow",
-			"quantity": 1,
-			"description": "Air Tank (Large)",
-			"tech_level": "6",
-			"value": "600",
-			"weight": "35 lb",
-			"reference": "HT74",
-			"notes": "Lasts 90mins.",
-			"categories": [
-				"Internals"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "4b780e44-2ba1-4aa8-8b04-97136a56763b",
-			"based_on_id": "13e99ab1-7255-4e13-8ff3-b52f218d1fef",
-			"based_on_hash": "MQj+xmQLZ/gbYk0OI4mi4v7kkDTbO+z0GxABoXaswmo",
-			"quantity": 1,
-			"description": "Air Tank (Medium)",
-			"tech_level": "6",
-			"value": "400",
-			"weight": "25 lb",
-			"reference": "HT74",
-			"notes": "Lasts 45mins.",
-			"categories": [
-				"Internals"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "957d232b-4b15-498a-bcab-0747a5b35d25",
-			"based_on_id": "dba1c243-f485-4c9b-9689-031022124921",
-			"based_on_hash": "5ud4mRmAtkuUe/n6hCPp/tWJrxxZv2AxjHhOgMPkh/Y",
-			"quantity": 1,
-			"description": "Air Tank (Emergency)",
-			"tech_level": "6",
-			"value": "200",
-			"weight": "5 lb",
-			"reference": "HT74",
-			"notes": "Lasts 12min.",
-			"categories": [
-				"Internals"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "296a20b9-171e-4f8c-96ae-e40af7d195e9",
-			"based_on_id": "141805a6-846c-4f61-8e88-330bf86b9835",
-			"based_on_hash": "UDBTR5X05oSz4D5YFfkQl2oNNWIP5NpaUdFRV/oDYxY",
-			"quantity": 1,
-			"description": "Helmet",
-			"tech_level": "6",
-			"value": "60",
-			"weight": "3 lb",
-			"reference": "HT70",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 4,
-					"location": "skull"
-				}
-			],
-			"categories": [
-				"Armor",
-				"Headwear"
 			]
 		},
 		{
@@ -627,129 +64,24 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "72e04803-6c7c-43c8-af9f-4c674022916f",
-			"based_on_id": "2141db9c-7286-4030-8e54-1cb998242955",
-			"based_on_hash": "KOQTtU1rcTtf0hvgiavX2HuXT9E5wxDaO0KB2AvecWw",
+			"id": "22eb9556-8c5c-4905-a09c-1d416159552a",
+			"based_on_id": "eac0fb5f-39d3-4f4d-b14a-2614055a48ee",
+			"based_on_hash": "R4MC5ezmxOaEo+m9IzBx7Bmvz61daMKzlzk5nF9I+fw",
 			"quantity": 1,
-			"description": "Sneakers",
+			"description": "Bulletproof Vest",
 			"tech_level": "6",
-			"value": "50",
-			"weight": "2 lb",
-			"reference": "HT68",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "feet"
-				}
-			],
-			"categories": [
-				"Footwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "35bc796a-b552-4a88-9d3e-0cbe1a9bff7c",
-			"based_on_id": "dfd572b9-d6ed-48a9-a1d7-2d9d33144aac",
-			"based_on_hash": "lIxE+0Um/9wy2G5VbkamllCLLeO2nEOwHLEyGbQmQ8I",
-			"quantity": 1,
-			"description": "Goggles",
-			"tech_level": "6",
-			"value": "20",
-			"reference": "HT71",
-			"categories": [
-				"Eyewear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "e7c66eb8-44ee-46e9-9f78-b688253b3135",
-			"based_on_id": "67b9712c-5921-4933-93b3-a283400bc222",
-			"based_on_hash": "H/tHffHZXr8oENykNIgYJMJHAr+c5zLshHwOWllDjUg",
-			"quantity": 1,
-			"description": "Medical HUD",
-			"tech_level": "7",
-			"value": "2000",
-			"weight": "1 lb",
-			"categories": [
-				"Eyewear",
-				"Medical"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "3ac0aacd-34ca-49cb-95cc-f6fcef34d0a0",
-			"based_on_id": "95c5272f-7675-4256-877a-322f5e162bf6",
-			"based_on_hash": "Z54hdD9kFMq7mOsiTVDOtj6eJa6DwoKJIn9fYXFvXvw",
-			"quantity": 1,
-			"description": "Hard Hat",
-			"tech_level": "7",
-			"value": "50",
-			"weight": "1 lb",
-			"reference": "HT70",
-			"features": [
-				{
-					"type": "dr_bonus",
-					"amount": 2,
-					"location": "skull"
-				}
-			],
-			"notes": "DR+2 vs. cr.",
-			"categories": [
-				"Armor",
-				"Headwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "007f3a13-bce0-4da0-a883-66bf7da3ea65",
-			"based_on_id": "3aed6734-cbea-441d-9466-698dc530007e",
-			"based_on_hash": "t6asiqIlCiouLfZQvOjKkUYVQpBrCJyairI8ilbAXUY",
-			"quantity": 1,
-			"description": "Riot Helmet + Visor",
-			"tech_level": "8",
-			"value": "250",
-			"weight": "3.5 lb",
-			"reference": "HT70",
+			"value": "750",
+			"weight": "8 lb",
+			"reference": "HT66",
 			"features": [
 				{
 					"type": "dr_bonus",
 					"amount": 6,
-					"location": "skull"
-				},
-				{
-					"type": "dr_bonus",
-					"amount": 7,
-					"location": "face"
-				},
-				{
-					"type": "dr_bonus",
-					"amount": 1,
-					"location": "eyes"
+					"location": "torso"
 				}
 			],
 			"categories": [
-				"Armor",
-				"Headwear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "2b6c1f88-881d-42c0-adf4-f136094e9b19",
-			"based_on_id": "3bc16bc3-e7f1-4120-b468-2e5cd51e7546",
-			"based_on_hash": "npEWGfgxsW1y88xEoqbBMc//v/MQ/yyqIvo+MpJ6cmw",
-			"quantity": 1,
-			"description": "Hat, Cloth",
-			"tech_level": "1",
-			"value": "6",
-			"reference": "HT64",
-			"categories": [
-				"Headwear"
+				"Armor"
 			]
 		},
 		{
@@ -835,6 +167,137 @@
 		{
 			"type": "equipment",
 			"version": 1,
+			"id": "753f54dd-5c4b-4df2-ac7f-e8a9a3d9dbd0",
+			"based_on_id": "176acdb0-e699-484a-a5e7-3e79f4898e1d",
+			"based_on_hash": "mh1YrVODN+zctgY0oZZcepaDycR1S++SWAGhugjRVvs",
+			"quantity": 1,
+			"description": "Sunglasses",
+			"tech_level": "5",
+			"value": "50",
+			"reference": "HT71",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "eyes"
+				}
+			],
+			"categories": [
+				"Armor",
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d9c27313-92f5-4361-9eac-a96b1775f890",
+			"based_on_id": "f0c12cc9-288c-4fae-9670-417ecb5f19e8",
+			"based_on_hash": "c8BSIfznPxbngeIWJrJIYv5S+lBzTzWlSrYFapbUPA0",
+			"quantity": 1,
+			"description": "Jackboots",
+			"tech_level": "9",
+			"value": "150",
+			"weight": "3 lb",
+			"reference": "UT173",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "feet"
+				}
+			],
+			"notes": "DR+4 vs. piercing and cutting.",
+			"categories": [
+				"Armor",
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3ac0aacd-34ca-49cb-95cc-f6fcef34d0a0",
+			"based_on_id": "95c5272f-7675-4256-877a-322f5e162bf6",
+			"based_on_hash": "Z54hdD9kFMq7mOsiTVDOtj6eJa6DwoKJIn9fYXFvXvw",
+			"quantity": 1,
+			"description": "Hard Hat",
+			"tech_level": "7",
+			"value": "50",
+			"weight": "1 lb",
+			"reference": "HT70",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "skull"
+				}
+			],
+			"notes": "DR+2 vs. cr.",
+			"categories": [
+				"Armor",
+				"Headwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "296a20b9-171e-4f8c-96ae-e40af7d195e9",
+			"based_on_id": "141805a6-846c-4f61-8e88-330bf86b9835",
+			"based_on_hash": "UDBTR5X05oSz4D5YFfkQl2oNNWIP5NpaUdFRV/oDYxY",
+			"quantity": 1,
+			"description": "Helmet",
+			"tech_level": "6",
+			"value": "60",
+			"weight": "3 lb",
+			"reference": "HT70",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 4,
+					"location": "skull"
+				}
+			],
+			"categories": [
+				"Armor",
+				"Headwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "007f3a13-bce0-4da0-a883-66bf7da3ea65",
+			"based_on_id": "3aed6734-cbea-441d-9466-698dc530007e",
+			"based_on_hash": "t6asiqIlCiouLfZQvOjKkUYVQpBrCJyairI8ilbAXUY",
+			"quantity": 1,
+			"description": "Riot Helmet + Visor",
+			"tech_level": "8",
+			"value": "250",
+			"weight": "3.5 lb",
+			"reference": "HT70",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 6,
+					"location": "skull"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 7,
+					"location": "face"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "eyes"
+				}
+			],
+			"categories": [
+				"Armor",
+				"Headwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
 			"id": "67f801aa-ac3d-45e1-a814-ce7b6b454e34",
 			"based_on_id": "b1b39392-6213-4708-9e9f-4dfc43933944",
 			"based_on_hash": "SnLW81Dk1wg3mND0O2vsHyDAwFlu0e2AzECiyzyEEwk",
@@ -870,35 +333,123 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "84662ac8-2561-4311-90a1-3e84105f95e9",
-			"based_on_id": "9e993507-b2fb-4ab2-b2ad-442a418af0d2",
-			"based_on_hash": "agG4yL16/n0lKF+gV0AWFOPRa0M9/kPqKg0cHgk1DTs",
+			"id": "efda5af8-254e-4edd-be5d-d8345b7e2ac9",
+			"based_on_id": "3aba965a-aa09-4206-8e78-70d3b3c4d394",
+			"based_on_hash": "bNDGh+J1Om5VO0JoRMMOEs249hxbJ83nuDEZ4NHLhKw",
 			"quantity": 1,
-			"description": "PDA",
-			"tech_level": "9",
+			"description": "Hazard Vest",
+			"tech_level": "5",
 			"value": "10",
-			"weight": "0.05 lb",
-			"reference": "UT23",
-			"notes": "2A/20hr.",
+			"weight": "5 lb",
 			"categories": [
-				"Electronics"
+				"Clothing"
 			]
 		},
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "aec032a4-7e5b-4013-a721-d6170bd6bbcc",
-			"based_on_id": "a0f5488b-6bf7-4602-bcc4-8577da1ac307",
-			"based_on_hash": "aTNihJLoUJnOJzSSnnPeTm9XqpvDA3In9U5nqVCSS+E",
+			"id": "419f2771-893b-434e-a6a7-57bb77df8a5c",
 			"quantity": 1,
-			"description": "Laptop",
-			"tech_level": "9",
+			"description": "Jumpsuit (Departmental)",
 			"value": "100",
-			"weight": "0.5 lb",
-			"reference": "UT22",
-			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from others in your department"
+				}
+			],
+			"notes": "+1 Reaction from dept.",
 			"categories": [
-				"Electronics"
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "00ca7288-f999-42d4-8bad-c53056463e6b",
+			"quantity": 1,
+			"description": "Jumpsuit (Grey)",
+			"value": "100",
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -1,
+					"situation": "from command members"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from other assistants"
+				}
+			],
+			"notes": "+1 Greytiding",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "61a75a7d-6c9b-4a05-897a-a4daddd596d0",
+			"quantity": 1,
+			"description": "Jumpsuit (Head of Department)",
+			"value": "200",
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from other department members"
+				}
+			],
+			"notes": "+1 Reaction from dept.",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b813c86b-4158-48bb-ae26-b0e9c35fa07c",
+			"quantity": 1,
+			"description": "Jumpsuit (Plain)",
+			"value": "100",
+			"weight": "1.5 lb",
+			"categories": [
+				"Clothing"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "93dc763a-91e6-42b7-89f4-0a903d201486",
+			"based_on_id": "85cc2d45-6c6b-4043-b4e3-a943c7c135a8",
+			"based_on_hash": "cIPRcwbWe5n00w92gmUFPS+Lwzdj5Q+f2TmwDKAtsjs",
+			"quantity": 1,
+			"description": "Cigar Case",
+			"tech_level": "5",
+			"value": "30",
+			"weight": "0.1 lb",
+			"reference": "HT31",
+			"categories": [
+				"Consumable"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "d7691ac3-ee56-471a-80f5-073ca7f42d3c",
+			"based_on_id": "17716088-aef4-4865-af3c-2356cc9c6f79",
+			"based_on_hash": "ympuvbBE0mPhdpV0nshEXNGIHGdKl8zfqO0cuN4+4lY",
+			"quantity": 1,
+			"description": "Drugs",
+			"value": "1",
+			"reference": "HT34",
+			"categories": [
+				"Consumable"
 			]
 		},
 		{
@@ -979,6 +530,168 @@
 			]
 		},
 		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5fe1b8aa-0ac2-41a0-86b4-ff114b8b6dc2",
+			"based_on_id": "4d7d7bd6-40d7-433a-b36d-74ca462bb8d5",
+			"based_on_hash": "r6jWUDHsMO6xmDjr3hTQKzhcUhOUq0MuZigr+AzA1z4",
+			"quantity": 1,
+			"description": "Battery (L)",
+			"value": "10",
+			"weight": "10 lb",
+			"reference": "HT13",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0b335901-13b6-4ea1-9acd-bc987e4d506b",
+			"based_on_id": "addf5d72-25e8-4827-8a4d-a1a30185d6c8",
+			"based_on_hash": "lWC0LutnUXmt1/n8GD57Pkti1lv0d3GutZQmnQXBsaI",
+			"quantity": 1,
+			"description": "Battery (M)",
+			"value": "5",
+			"weight": "2 lb",
+			"reference": "HT13",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "44b2de9d-3c74-4fbc-9515-c0477db6deb5",
+			"based_on_id": "d86523d1-068d-4325-8aae-682ac47aded0",
+			"based_on_hash": "PKpsnWxTpzRIdCHCR1yCEYOckRdkDPSDBvz2KaSflTY",
+			"quantity": 1,
+			"description": "Battery (S)",
+			"value": "1",
+			"weight": "0.33 lb",
+			"reference": "HT13",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2cffc31c-90b2-44ec-95a4-7f3def35b289",
+			"based_on_id": "e4d14ca5-64b5-4e9c-846a-f784441d2e4e",
+			"based_on_hash": "QAF5g51Q1rOOtILWt2m+4UD+XC3x7QwmZhnRisrE8aQ",
+			"quantity": 1,
+			"description": "Floppy Disk",
+			"tech_level": "7",
+			"value": "0.5",
+			"reference": "HT22",
+			"notes": "100KB to 1.44MB; Holdout 0",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "aec032a4-7e5b-4013-a721-d6170bd6bbcc",
+			"based_on_id": "a0f5488b-6bf7-4602-bcc4-8577da1ac307",
+			"based_on_hash": "aTNihJLoUJnOJzSSnnPeTm9XqpvDA3In9U5nqVCSS+E",
+			"quantity": 1,
+			"description": "Laptop",
+			"tech_level": "9",
+			"value": "100",
+			"weight": "0.5 lb",
+			"reference": "UT22",
+			"notes": "Complexity 4. 10TB. 2B/20hr.",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "84662ac8-2561-4311-90a1-3e84105f95e9",
+			"based_on_id": "9e993507-b2fb-4ab2-b2ad-442a418af0d2",
+			"based_on_hash": "agG4yL16/n0lKF+gV0AWFOPRa0M9/kPqKg0cHgk1DTs",
+			"quantity": 1,
+			"description": "PDA",
+			"tech_level": "9",
+			"value": "10",
+			"weight": "0.05 lb",
+			"reference": "UT23",
+			"notes": "2A/20hr.",
+			"categories": [
+				"Electronics"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b2a303d1-5079-467c-8150-38b77000d378",
+			"quantity": 1,
+			"description": "Cable Coil",
+			"value": "20",
+			"weight": "0.5 lb",
+			"categories": [
+				"Electronics",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "73dccdda-0dba-4352-93e6-05b057681394",
+			"based_on_id": "0746dd7a-4d0e-48a0-a512-f6863baf22cc",
+			"based_on_hash": "edAQz7owatoOIFefi34/i+S3JYTET4zj/o/SW1yBVOU",
+			"quantity": 1,
+			"description": "Electromagnetic Sequencer",
+			"tech_level": "9",
+			"legality_class": "1",
+			"value": "1",
+			"notes": "Can open any powered, unbolted door.",
+			"categories": [
+				"Electronics",
+				"Traitor Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6edef8f8-d1ca-4746-bcff-758f333d7f7a",
+			"based_on_id": "5b37dae0-8c7b-4037-97da-114244c0ab44",
+			"based_on_hash": "wXpmMQQ2AUyy6dYo+bsbyuv5hmm39PJl1b4Oyxy1IO4",
+			"quantity": 1,
+			"description": "Radio Jammer",
+			"tech_level": "8",
+			"legality_class": "2",
+			"value": "500",
+			"weight": "5 lb",
+			"reference": "HT213",
+			"notes": "50-yard range. Electronics Operation (EW) 18. M/2hrs.",
+			"categories": [
+				"Electronics",
+				"Traitor Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "b81c2063-0aab-4e86-9151-49eb73169ab2",
+			"based_on_id": "6a6934f8-6fb7-4a57-ab93-a4f75e96377d",
+			"based_on_hash": "EXwVPMbyttWvuvDXZDnXWuqckh2jY5+m9y7FAnqyyd0",
+			"quantity": 1,
+			"description": "Defibrillator",
+			"tech_level": "8",
+			"legality_class": "3",
+			"value": "10000",
+			"weight": "15 lb",
+			"reference": "HT219",
+			"notes": "L/20 uses. +3 to resuscitation.",
+			"categories": [
+				"Emergency Equipment"
+			]
+		},
+		{
 			"type": "equipment_container",
 			"version": 1,
 			"id": "020b8166-09fc-47a0-87c3-4453ee9048f7",
@@ -1003,50 +716,893 @@
 			"categories": [
 				"Emergency Equipment"
 			],
-			"open": true
+			"open": false
 		},
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "ce1075a0-ed9a-4e5d-a571-036e996f1846",
-			"based_on_id": "63b0b026-124e-4fa5-9a74-353addbcec9e",
-			"based_on_hash": "1cdrygS79vPUig0BDA8YiE6FideLkj/8K+RXdq9dGC4",
+			"id": "f665876a-7dd7-4bf5-8b24-1346ce7351ad",
+			"based_on_id": "bf115b95-2a9d-4607-ad9b-8c4f3ebefc02",
+			"based_on_hash": "cks+kksxBGOBsu87Mhwz2FbTHoZD7Mdb9oSGpQNzCVc",
 			"quantity": 1,
-			"description": "Medical Doctor Kit",
-			"tech_level": "9",
-			"value": "200",
-			"weight": "10 lb",
-			"reference": "UT198",
-			"features": [
+			"description": "C4",
+			"tech_level": "6",
+			"legality_class": "2",
+			"value": "30",
+			"weight": "1 lb",
+			"reference": "HT186",
+			"categories": [
+				"Explosives",
+				"Traitor Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9f7b79b4-6a56-46ab-9ace-58a4be74ad45",
+			"based_on_id": "60bd0c4e-892c-423a-9cfd-da8445dcaa74",
+			"based_on_hash": "czGLAqbBurU4EQ2W6QF8Iv6PIcpid5iyn4+oNIIU53I",
+			"quantity": 1,
+			"description": "Hand Grenade (Fragmentation)",
+			"tech_level": "6",
+			"legality_class": "1",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "HT192",
+			"weapons": [
 				{
-					"type": "skill_bonus",
-					"amount": 2,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "First Aid"
-					}
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "8d+2"
+					},
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "DX",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					]
 				}
 			],
-			"notes": "Surgery -5.",
+			"notes": "Fuse 4-5. 1 Ready maneuver.",
 			"categories": [
+				"Explosives",
+				"Traitor Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5ce4f9d0-e515-4eaf-b5a8-f0e2fd722ec0",
+			"quantity": 1,
+			"description": "Diagnostic HUD",
+			"tech_level": "9",
+			"value": "1000",
+			"categories": [
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0b54a68b-db1d-413a-91a7-918cae7538c2",
+			"based_on_id": "96fff355-713b-426f-8670-a6766e8520c8",
+			"based_on_hash": "t3LxXGwJLzcyewbNA50GSua2ZioVcESAB8IkXJ6G1ng",
+			"quantity": 1,
+			"description": "Eyeglasses",
+			"tech_level": "5",
+			"value": "150",
+			"reference": "HT225",
+			"categories": [
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "35bc796a-b552-4a88-9d3e-0cbe1a9bff7c",
+			"based_on_id": "dfd572b9-d6ed-48a9-a1d7-2d9d33144aac",
+			"based_on_hash": "lIxE+0Um/9wy2G5VbkamllCLLeO2nEOwHLEyGbQmQ8I",
+			"quantity": 1,
+			"description": "Goggles",
+			"tech_level": "6",
+			"value": "20",
+			"reference": "HT71",
+			"categories": [
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "32cddf74-8de6-415b-bad7-088a742330e7",
+			"quantity": 1,
+			"description": "Meson Goggles",
+			"tech_level": "9",
+			"value": "1000",
+			"categories": [
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "0519582a-f64c-443a-a22e-aa5ee155e722",
+			"quantity": 1,
+			"description": "Science Goggles",
+			"tech_level": "9",
+			"value": "1000",
+			"categories": [
+				"Eyewear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e7c66eb8-44ee-46e9-9f78-b688253b3135",
+			"based_on_id": "67b9712c-5921-4933-93b3-a283400bc222",
+			"based_on_hash": "H/tHffHZXr8oENykNIgYJMJHAr+c5zLshHwOWllDjUg",
+			"quantity": 1,
+			"description": "Medical HUD",
+			"tech_level": "9",
+			"value": "1000",
+			"categories": [
+				"Eyewear",
 				"Medical"
 			]
 		},
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "b73c00c3-def8-4dd0-83e9-5d1d083b7ee7",
-			"based_on_id": "298f81a8-3bdb-4b84-afde-9eccc575c2af",
-			"based_on_hash": "juhiq2Sm7gKAm/ackH8Do3E4AVF/LAxSMg/RE2AJzXc",
+			"id": "b4aec4da-66c0-40a6-9d90-b7904c1fdad2",
 			"quantity": 1,
-			"description": "Surgical Tools",
+			"description": "Security HUD",
 			"tech_level": "9",
-			"value": "300",
-			"weight": "15 lb",
-			"reference": "UT199",
+			"value": "750",
 			"categories": [
-				"Medical"
+				"Eyewear",
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6ed4ddba-1830-42f6-a142-5c5e87853fa4",
+			"quantity": 1,
+			"description": "Welding Goggles",
+			"tech_level": "5",
+			"value": "100",
+			"categories": [
+				"Eyewear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8f94ec93-8e96-4ab6-b9cb-850328822003",
+			"based_on_id": "4f263b1c-e1dc-4940-bc5e-ef4723822082",
+			"based_on_hash": "c7MoqJnPapEQAS94toUCslhEellMTFLGMvTxfe894gA",
+			"quantity": 1,
+			"description": "Boots",
+			"tech_level": "6",
+			"value": "100",
+			"weight": "4 lb",
+			"reference": "HT68",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "feet"
+				}
+			],
+			"notes": "DR+2 to toes.",
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "72e04803-6c7c-43c8-af9f-4c674022916f",
+			"based_on_id": "2141db9c-7286-4030-8e54-1cb998242955",
+			"based_on_hash": "KOQTtU1rcTtf0hvgiavX2HuXT9E5wxDaO0KB2AvecWw",
+			"quantity": 1,
+			"description": "Sneakers",
+			"tech_level": "6",
+			"value": "50",
+			"weight": "2 lb",
+			"reference": "HT68",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "feet"
+				}
+			],
+			"categories": [
+				"Footwear"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "5cd672f4-fb2b-4330-b3cf-cdcf391c8cf6",
+			"based_on_id": "77915896-472a-46f9-ac2b-a77774f678b7",
+			"based_on_hash": "03rHMPurHrb7LrT1rrHJZy65nx/HekZ3Wg64JdZrKog",
+			"description": "Backpack",
+			"tech_level": "5",
+			"value": "60",
+			"weight": "3 lb",
+			"reference": "HT54",
+			"notes": "Holds 50lbs.",
+			"categories": [
+				"General Equipment"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "f82355a0-26eb-4575-9922-eb51a1e65847",
+			"based_on_id": "b6d96c51-ad7b-4a0c-85e8-bf8333b3642f",
+			"based_on_hash": "x/zzYRa76gf4xygMpqSPwt4U9LzY8EkcQxvaHREYUJA",
+			"quantity": 1,
+			"description": "Ballpoint Pen",
+			"tech_level": "7",
+			"value": "0.5",
+			"reference": "HT19",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8ffff185-0aa3-418e-bfe6-558c41fcc40b",
+			"based_on_id": "97531fa0-feaf-4f90-af1c-c84d76259a5d",
+			"based_on_hash": "+neoA8YQfXR8WQxK3/lTBPUbkmkzUkEjwCY8bDx5IcY",
+			"quantity": 1,
+			"description": "Bowman Headset",
+			"tech_level": "8",
+			"value": "250",
+			"weight": "0.5 lb",
+			"reference": "HT39",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "40036869-e968-40c3-8edf-d68e990cf500",
+			"based_on_id": "45debcf7-0bbe-4468-b8fa-f76aa3ae8802",
+			"based_on_hash": "1mKVw8iAFBbub7nsENUd31Wdxvu4wd2sfExm2y2gK7M",
+			"quantity": 1,
+			"description": "Camera Obscura",
+			"tech_level": "6",
+			"value": "50",
+			"weight": "10 lb",
+			"reference": "HT42",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1b0ed3b3-c39c-4885-aed5-638861543516",
+			"based_on_id": "685327d7-586d-44a7-bcf3-d376bdc7ce48",
+			"based_on_hash": "ftH0b6LXOLUjvoV+8dF2t+D5v23OCuO6ZeyJxM9O3TU",
+			"quantity": 1,
+			"description": "Candles",
+			"tech_level": "0",
+			"value": "0.03",
+			"weight": "0.0625 lb",
+			"reference": "HT51",
+			"notes": "Burns 4hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "bd22329d-e86c-418a-bfb9-674def71b938",
+			"based_on_id": "78844f4d-9e41-4805-a5df-d574312256d7",
+			"based_on_hash": "H8fSVaJWw0T+fDHHqXuc9MrJBZO1BS7Pmjh5wdQFUbY",
+			"description": "Duffel Bag",
+			"tech_level": "8",
+			"value": "200",
+			"weight": "10 lb",
+			"reference": "HT55",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"amount": -1,
+					"attribute": "move"
+				}
+			],
+			"notes": "Holds 100lbs. -1 Basic Move.",
+			"categories": [
+				"General Equipment"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2245b016-d1d2-4bf4-a438-b47d6163bd3c",
+			"based_on_id": "217ce8d1-a5a6-48a8-8c9d-f8b077d7d44e",
+			"based_on_hash": "bzDN994HzXJJFVTwl0JiZvkZWLC0OVuHpxk36d9WdpM",
+			"quantity": 1,
+			"description": "Flare",
+			"tech_level": "7",
+			"value": "25",
+			"reference": "HT27",
+			"notes": "20 minutes burn time.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a65f6478-c01d-47fb-a21c-9988c1971887",
+			"based_on_id": "76e6a217-faaa-4ed1-bf53-3a8afbea5b35",
+			"based_on_hash": "GQDNkNPkTqUnodWUIyajiplx42MsLkqcLjcxViermWs",
+			"quantity": 1,
+			"description": "Flashlight",
+			"tech_level": "8",
+			"value": "20",
+			"weight": "1 lb",
+			"reference": "HT52",
+			"notes": "10-yard beam. 2xS/50hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "669ab392-4a7d-4d9f-8141-777eb9906817",
+			"based_on_id": "b53c448a-dbf6-4a9c-9404-daa8501edcac",
+			"based_on_hash": "ua1TMFHaUroWOym6J82XpLhDk8+/JhS35mDc+BHiWf0",
+			"quantity": 1,
+			"description": "Fountain Pen",
+			"tech_level": "6",
+			"value": "3",
+			"reference": "HT19",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "cfb5a6cc-cea1-4d54-b597-22a09b536819",
+			"based_on_id": "20047a99-405e-4b1a-b6ec-45fca26d617b",
+			"based_on_hash": "f/aFshEyAGbEpvWJH28TpGsDipmeVl5E9zWjZlQ1U0c",
+			"quantity": 1,
+			"description": "Geiger Counter",
+			"tech_level": "8",
+			"value": "400",
+			"weight": "0.5 lb",
+			"reference": "HT49",
+			"notes": "XS/10hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "87314c76-116f-4faf-820e-1a218724d885",
+			"based_on_id": "5e7904d0-bc5d-4372-ac05-5ec133f1593f",
+			"based_on_hash": "S6W6NY/Eo9xyT4zjBaZqB1vcXEIHipOOeqmTtOec/20",
+			"quantity": 1,
+			"description": "Glowstick",
+			"tech_level": "7",
+			"value": "2",
+			"weight": "0.1 lb",
+			"reference": "HT52",
+			"notes": "Lasts 12 hours.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "01f8a794-1a0f-45df-b5b0-4438a51f3e8f",
+			"based_on_id": "d5c9e0dc-d516-469a-9afb-e9fbdf3e7c49",
+			"based_on_hash": "Kjyui4NUogQem54hK8f4pu5+57VsBan57hwkM1jPklg",
+			"quantity": 1,
+			"description": "GPS",
+			"tech_level": "8",
+			"value": "100",
+			"weight": "0.25 lb",
+			"reference": "HT53",
+			"notes": "2xS/40hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "56cdb7f3-b9b9-4de3-852f-877bd51b9a50",
+			"based_on_id": "f1165e33-80e0-4f46-bf54-2d0036b9e5e3",
+			"based_on_hash": "STif52kasHSIOyHYkXgGT7joIgHgENAx0oAm0LzZCJ0",
+			"quantity": 1,
+			"description": "Headphones",
+			"tech_level": "7",
+			"value": "50",
+			"weight": "1 lb",
+			"reference": "HT41",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a32ded61-07bd-4573-a902-9d34e4cd2da2",
+			"based_on_id": "0746dd7a-4d0e-48a0-a512-f6863baf22cc",
+			"based_on_hash": "edAQz7owatoOIFefi34/i+S3JYTET4zj/o/SW1yBVOU",
+			"quantity": 1,
+			"description": "ID Card",
+			"tech_level": "8",
+			"value": "1",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a24a9f90-2da4-4f93-a129-bfc981e8f600",
+			"based_on_id": "42ee9ba8-f1b4-467f-a2cf-dc92b62cbd58",
+			"based_on_hash": "UvOV0SxskA7AbM/zAAHM1I5b0EGSGug3fEVLPGifPdw",
+			"quantity": 1,
+			"description": "Lighter",
+			"tech_level": "6",
+			"value": "10",
+			"reference": "HT57",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ac7b7939-9e1f-4c59-b1f5-9e15b28e5910",
+			"based_on_id": "343e99ba-4f6b-4673-9769-02f7e388b919",
+			"based_on_hash": "6ymF0kI/9ER6iz1IaB6mlFeXqug6QTNquAQVvqgy7xQ",
+			"quantity": 1,
+			"description": "Matches",
+			"tech_level": "5",
+			"value": "0.25",
+			"reference": "HT57",
+			"notes": "Box of 50.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "66b107dd-d5e4-42d5-b7b0-01b9853a964c",
+			"based_on_id": "74acb677-9920-402f-9087-76263d38ecc1",
+			"based_on_hash": "hGR/fJ6slhhGUmc3qIxOCLb6JZ3vt+1KzQJjXihMcxQ",
+			"quantity": 1,
+			"description": "Night Vision Goggles",
+			"tech_level": "8",
+			"value": "3500",
+			"weight": "1.5 lb",
+			"reference": "HT48",
+			"notes": "Night Vision 7-9. 2xXS/20hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "abc307f6-67ba-42e5-b5c1-b1347516c442",
+			"based_on_id": "0abe4830-32b5-4fd1-8f79-5bc681ae271d",
+			"based_on_hash": "XhD3jjkglcybw+FUKMji7iAia09kwDGUV0m7hrTbNOI",
+			"quantity": 1,
+			"description": "Notebook",
+			"tech_level": "6",
+			"value": "1",
+			"weight": "0.1 lb",
+			"reference": "HT17",
+			"notes": "Holdout -1",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "481023cd-1546-49bc-829c-a090fa50f44d",
+			"based_on_id": "b36033aa-6950-4f38-b566-8118848e7001",
+			"based_on_hash": "x9KBkL73i9nzGIc16CaGLJ53/AZ7YVP3misbDl9qq/U",
+			"quantity": 1,
+			"description": "Paper",
+			"tech_level": "6",
+			"value": "0.5",
+			"weight": "1 lb",
+			"reference": "HT19",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8c3a5d0c-dd43-46e0-b5d6-253859437f6c",
+			"based_on_id": "8f6bcac3-7bd1-42bc-8c48-ff38dc7d74c6",
+			"based_on_hash": "N2Yoe28KVeJ/M/Y0PCCax9EzcZrFuy/ucOJMEoCe3ks",
+			"quantity": 1,
+			"description": "Penlite",
+			"tech_level": "8",
+			"value": "10",
+			"weight": "0.25 lb",
+			"reference": "HT52",
+			"notes": "5-yard beam. 2xXS/10hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "1ccea7bb-058b-4bd7-a396-8c4cae3b7d9a",
+			"based_on_id": "d08dde19-b151-42ff-9d14-01c956519d8b",
+			"based_on_hash": "gPbQ9dycpla8bOp6uB6x+8MV7SCnJo/NNPeViUBvlrs",
+			"quantity": 1,
+			"description": "Photocopier",
+			"tech_level": "7",
+			"value": "15000",
+			"weight": "650 lb",
+			"reference": "HT19",
+			"notes": "6 pages per minute, external power.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ba7df263-9cd1-4933-ba9d-1c91bb8a5acc",
+			"based_on_id": "8c19a77e-642c-4afe-9139-fa848d2384e6",
+			"based_on_hash": "EzjwoHz0OS9ZuC3GLrYNsOSuCDik2H7IqH/Qnew765M",
+			"quantity": 1,
+			"description": "Pocket Watch",
+			"tech_level": "5",
+			"value": "100",
+			"reference": "HT31",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e41cb624-5539-43f5-a8f7-9e66fe8e138f",
+			"based_on_id": "97531fa0-feaf-4f90-af1c-c84d76259a5d",
+			"based_on_hash": "+neoA8YQfXR8WQxK3/lTBPUbkmkzUkEjwCY8bDx5IcY",
+			"quantity": 1,
+			"description": "Radio Headset",
+			"tech_level": "8",
+			"value": "150",
+			"weight": "0.25 lb",
+			"reference": "HT39",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "327857d8-df87-4145-ba83-0bfe374a74cd",
+			"based_on_id": "88a7dc4f-c5bb-4f99-a20c-667ca0dad5d1",
+			"based_on_hash": "bRH6js5Oo1MKagC3YV5ACKpkgjRd5wmUaG3upOOCysE",
+			"quantity": 1,
+			"description": "Seclite",
+			"tech_level": "7",
+			"value": "100",
+			"weight": "1 lb",
+			"reference": "HT52",
+			"weapons": [
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Punch",
+					"reach": "C",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "DX"
+						},
+						{
+							"type": "Skill",
+							"name": "Boxing"
+						},
+						{
+							"type": "Skill",
+							"name": "Brawling"
+						},
+						{
+							"type": "Skill",
+							"name": "Karate"
+						}
+					]
+				}
+			],
+			"notes": "25-yard beam. 2xS/2hrs.",
+			"categories": [
+				"General Equipment"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ad460507-83b3-44fc-aeb5-cabd097ec21c",
+			"quantity": 1,
+			"description": "Insulated Gloves",
+			"value": "500",
+			"notes": "Protects your hands from shocks",
+			"categories": [
+				"Handwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2b6c1f88-881d-42c0-adf4-f136094e9b19",
+			"based_on_id": "3bc16bc3-e7f1-4120-b468-2e5cd51e7546",
+			"based_on_hash": "npEWGfgxsW1y88xEoqbBMc//v/MQ/yyqIvo+MpJ6cmw",
+			"quantity": 1,
+			"description": "Hat, Cloth",
+			"tech_level": "1",
+			"value": "6",
+			"reference": "HT64",
+			"categories": [
+				"Headwear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2a376b76-27c1-48ab-943d-a8cd614866cc",
+			"quantity": 1,
+			"description": "Welding Helmet",
+			"tech_level": "5",
+			"value": "100",
+			"weight": "2 lb",
+			"categories": [
+				"Headwear",
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "5efce63a-6315-45e1-a17d-8850a52640e0",
+			"based_on_id": "073c2154-882a-4073-804f-cb023f44bf40",
+			"based_on_hash": "CD2iSLt8LYvr/KpGCH2u9wKafBWnj5GHGOkJqSGbdb8",
+			"quantity": 1,
+			"description": "Paper Bin",
+			"tech_level": "8",
+			"value": "2",
+			"weight": "5 lb",
+			"reference": "HT19",
+			"notes": "500 sheets.",
+			"categories": [
+				"Information Technology"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "70892bd2-6d40-4b22-a5ad-70b48c174435",
+			"based_on_id": "5a58d717-eaf0-4d9f-8354-76520cf471f1",
+			"based_on_hash": "3a1KZqvquNwWXdJxM7FlEDHplOKdkIKeY8h0SjEabiY",
+			"quantity": 1,
+			"description": "Scientific Calculator",
+			"tech_level": "8",
+			"value": "30",
+			"weight": "0.2 lb",
+			"reference": "HT18",
+			"categories": [
+				"Information Technology"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "957d232b-4b15-498a-bcab-0747a5b35d25",
+			"based_on_id": "dba1c243-f485-4c9b-9689-031022124921",
+			"based_on_hash": "5ud4mRmAtkuUe/n6hCPp/tWJrxxZv2AxjHhOgMPkh/Y",
+			"quantity": 1,
+			"description": "Air Tank (Emergency)",
+			"tech_level": "6",
+			"value": "200",
+			"weight": "5 lb",
+			"reference": "HT74",
+			"notes": "Lasts 12min.",
+			"categories": [
+				"Internals"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7775e8f2-7d11-402d-bf4b-5d0c2c03c9dd",
+			"based_on_id": "c00570b0-16ce-47d9-88dd-d1394f0d587b",
+			"based_on_hash": "fRuCYf8I58MEC4zk7e2ZM4VVsyjKxoe9Ws7y1kX+Tow",
+			"quantity": 1,
+			"description": "Air Tank (Large)",
+			"tech_level": "6",
+			"value": "600",
+			"weight": "35 lb",
+			"reference": "HT74",
+			"notes": "Lasts 90mins.",
+			"categories": [
+				"Internals"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "4b780e44-2ba1-4aa8-8b04-97136a56763b",
+			"based_on_id": "13e99ab1-7255-4e13-8ff3-b52f218d1fef",
+			"based_on_hash": "MQj+xmQLZ/gbYk0OI4mi4v7kkDTbO+z0GxABoXaswmo",
+			"quantity": 1,
+			"description": "Air Tank (Medium)",
+			"tech_level": "6",
+			"value": "400",
+			"weight": "25 lb",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"categories": [
+				"Internals"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "222a1755-1b13-4e4e-8063-13f412ff5744",
+			"based_on_id": "d663b355-a00c-4613-aca1-dc5cc5cb9f96",
+			"based_on_hash": "wdLIr8tOpF5ElLTNRIesyAB5u1xFtLJVXKNZSwHcO1A",
+			"quantity": 1,
+			"description": "Breath Mask",
+			"tech_level": "8",
+			"value": "50",
+			"weight": "0.5 lb",
+			"reference": "HT72",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 1,
+					"location": "face"
+				}
+			],
+			"categories": [
+				"Internals"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "00b06bc8-a966-4207-8788-f5483f9a088f",
+			"based_on_id": "121e4f48-823a-4481-be1f-12b8b7991d71",
+			"based_on_hash": "KQoCloC8hxGe+yJFGYCWhyxmZaAZpfiU8CQ4i1+qEN0",
+			"quantity": 1,
+			"description": "Gas Mask",
+			"tech_level": "6",
+			"value": "100",
+			"weight": "4 lb",
+			"reference": "HT72",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "eyes"
+				},
+				{
+					"type": "dr_bonus",
+					"amount": 2,
+					"location": "face"
+				}
+			],
+			"categories": [
+				"Internals"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "e7107486-9320-48a4-8de2-59f583958861",
+			"based_on_id": "00feeac0-23cc-4065-a3bf-fb8e6c4a59f9",
+			"based_on_hash": "SKlFNZJrhhwqQbbHdYhTVX+WRVnHZjX1L8p/nYu8htY",
+			"quantity": 1,
+			"description": "Beaker",
+			"tech_level": "6",
+			"value": "10",
+			"weight": "1 lb",
+			"reference": "HT33",
+			"notes": "50u",
+			"categories": [
+				"Liquid Container"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "ae62508d-e9de-4b3a-b250-d0c36551a265",
+			"based_on_id": "139b8c80-99bf-4467-906f-5a1be53928ca",
+			"based_on_hash": "2KeYvjVRpgjlEbPAuoEAsEHxjAYpPFSod66vLQytUL0",
+			"quantity": 1,
+			"description": "Canteen",
+			"tech_level": "5",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "HT53",
+			"notes": "75u",
+			"categories": [
+				"Liquid Container"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "df370586-7169-46b9-bf4c-6b4c79e94411",
+			"based_on_id": "e7107486-9320-48a4-8de2-59f583958861",
+			"based_on_hash": "lKXKOvsLEx9eTnkY0bLqlFFRKpUMQGWMzToP8byHb38",
+			"quantity": 1,
+			"description": "Large Beaker",
+			"tech_level": "6",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "HT33",
+			"notes": "100u",
+			"categories": [
+				"Liquid Container"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "00feeac0-23cc-4065-a3bf-fb8e6c4a59f9",
+			"based_on_id": "83ec8676-61ae-4c32-a969-7fec05979f8a",
+			"based_on_hash": "bYEVvJxOwKdUMmgv7egA/BzJOpaUwJBRLafTquLS9xw",
+			"quantity": 1,
+			"description": "Thermos Bottle",
+			"tech_level": "6",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "HT33",
+			"notes": "50u",
+			"categories": [
+				"Liquid Container"
 			]
 		},
 		{
@@ -1092,787 +1648,45 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "d7691ac3-ee56-471a-80f5-073ca7f42d3c",
-			"based_on_id": "17716088-aef4-4865-af3c-2356cc9c6f79",
-			"based_on_hash": "ympuvbBE0mPhdpV0nshEXNGIHGdKl8zfqO0cuN4+4lY",
+			"id": "ce1075a0-ed9a-4e5d-a571-036e996f1846",
+			"based_on_id": "63b0b026-124e-4fa5-9a74-353addbcec9e",
+			"based_on_hash": "1cdrygS79vPUig0BDA8YiE6FideLkj/8K+RXdq9dGC4",
 			"quantity": 1,
-			"description": "Drugs",
-			"value": "1",
-			"reference": "HT34",
-			"categories": [
-				"Consumable"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "40036869-e968-40c3-8edf-d68e990cf500",
-			"based_on_id": "45debcf7-0bbe-4468-b8fa-f76aa3ae8802",
-			"based_on_hash": "1mKVw8iAFBbub7nsENUd31Wdxvu4wd2sfExm2y2gK7M",
-			"quantity": 1,
-			"description": "Camera Obscura",
-			"tech_level": "5",
-			"value": "50",
-			"weight": "10 lb",
-			"reference": "HT42",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "255eb840-e2b3-4951-b2c8-cfca2938e247",
-			"based_on_id": "f67cc696-abc0-4d78-8955-4d454922c1cd",
-			"based_on_hash": "D1fAwGVixHhWpt8YME2wlbP7zvCNGvpVpvYrugNs8b0",
-			"quantity": 1,
-			"description": "Straitjacket",
-			"tech_level": "5",
-			"value": "100",
-			"weight": "3 lb",
-			"reference": "HT217",
-			"notes": "Escape -10 on average.",
-			"categories": [
-				"Security"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "6edef8f8-d1ca-4746-bcff-758f333d7f7a",
-			"based_on_id": "5b37dae0-8c7b-4037-97da-114244c0ab44",
-			"based_on_hash": "wXpmMQQ2AUyy6dYo+bsbyuv5hmm39PJl1b4Oyxy1IO4",
-			"quantity": 1,
-			"description": "Radio Jammer",
-			"tech_level": "8",
-			"legality_class": "2",
-			"value": "500",
-			"weight": "5 lb",
-			"reference": "HT213",
-			"notes": "50-yard range. Electronics Operation (EW) 18. M/2hrs.",
-			"categories": [
-				"Electronics",
-				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "ad7567cc-55f4-40f7-942e-d258e8f825fa",
-			"based_on_id": "0e9d12f5-dc60-484e-8c22-f954cc11ff2a",
-			"based_on_hash": "3uVPxKVBeMSudyn/3ohv8xpYOFhfVwS+0KFpFrdQB74",
-			"quantity": 1,
-			"description": "Fingerprint Kit",
-			"tech_level": "6",
-			"value": "50",
-			"weight": "1 lb",
-			"reference": "HT217",
-			"categories": [
-				"Security"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a8e72113-ab50-4d68-a8a5-b620d9348312",
-			"based_on_id": "6adc4db1-5df6-4395-aec5-1e2aad0745ee",
-			"based_on_hash": "TVnzqddoqOwBOYB/H1RY6Db35aiUTY1Onyi/i12Fito",
-			"quantity": 1,
-			"description": "Forensics Kit",
-			"tech_level": "7",
-			"value": "150",
-			"weight": "10 lb",
-			"reference": "HT217",
-			"categories": [
-				"Security"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "754b4975-4599-43b6-b5a3-ff62ec97cbfb",
-			"based_on_id": "84814c0d-1246-4826-84a1-24fe16555b51",
-			"based_on_hash": "80vvwIDHa01+4KqevGknzQs8Wy12GwYu8ViWATKnTmQ",
-			"quantity": 1,
-			"description": "Handcuffs",
-			"tech_level": "6",
-			"value": "50",
-			"weight": "0.5 lb",
-			"reference": "HT217",
-			"notes": "Escape -5. DR 4. HP 6.",
-			"categories": [
-				"Security"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "ae62508d-e9de-4b3a-b250-d0c36551a265",
-			"based_on_id": "139b8c80-99bf-4467-906f-5a1be53928ca",
-			"based_on_hash": "2KeYvjVRpgjlEbPAuoEAsEHxjAYpPFSod66vLQytUL0",
-			"quantity": 1,
-			"description": "Canteen",
-			"tech_level": "5",
-			"value": "10",
-			"weight": "2 lb",
-			"reference": "HT53",
-			"notes": "75u",
-			"categories": [
-				"Liquid Container"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "00feeac0-23cc-4065-a3bf-fb8e6c4a59f9",
-			"based_on_id": "83ec8676-61ae-4c32-a969-7fec05979f8a",
-			"based_on_hash": "bYEVvJxOwKdUMmgv7egA/BzJOpaUwJBRLafTquLS9xw",
-			"quantity": 1,
-			"description": "Thermos Bottle",
-			"tech_level": "6",
-			"value": "10",
-			"weight": "2 lb",
-			"reference": "HT33",
-			"notes": "50u",
-			"categories": [
-				"Liquid Container"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "e7107486-9320-48a4-8de2-59f583958861",
-			"based_on_id": "00feeac0-23cc-4065-a3bf-fb8e6c4a59f9",
-			"based_on_hash": "SKlFNZJrhhwqQbbHdYhTVX+WRVnHZjX1L8p/nYu8htY",
-			"quantity": 1,
-			"description": "Beaker",
-			"tech_level": "6",
-			"value": "10",
-			"weight": "1 lb",
-			"reference": "HT33",
-			"notes": "50u",
-			"categories": [
-				"Liquid Container"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "df370586-7169-46b9-bf4c-6b4c79e94411",
-			"based_on_id": "e7107486-9320-48a4-8de2-59f583958861",
-			"based_on_hash": "lKXKOvsLEx9eTnkY0bLqlFFRKpUMQGWMzToP8byHb38",
-			"quantity": 1,
-			"description": "Large Beaker",
-			"tech_level": "6",
-			"value": "10",
-			"weight": "2 lb",
-			"reference": "HT33",
-			"notes": "100u",
-			"categories": [
-				"Liquid Container"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "93dc763a-91e6-42b7-89f4-0a903d201486",
-			"based_on_id": "85cc2d45-6c6b-4043-b4e3-a943c7c135a8",
-			"based_on_hash": "cIPRcwbWe5n00w92gmUFPS+Lwzdj5Q+f2TmwDKAtsjs",
-			"quantity": 1,
-			"description": "Cigar Case",
-			"tech_level": "5",
-			"value": "30",
-			"weight": "0.1 lb",
-			"reference": "HT31",
-			"categories": [
-				"Consumable"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "efda5af8-254e-4edd-be5d-d8345b7e2ac9",
-			"based_on_id": "3aba965a-aa09-4206-8e78-70d3b3c4d394",
-			"based_on_hash": "bNDGh+J1Om5VO0JoRMMOEs249hxbJ83nuDEZ4NHLhKw",
-			"quantity": 1,
-			"description": "Hazard Vest",
-			"tech_level": "5",
-			"value": "10",
-			"weight": "5 lb",
-			"categories": [
-				"Clothing"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "87314c76-116f-4faf-820e-1a218724d885",
-			"based_on_id": "5e7904d0-bc5d-4372-ac05-5ec133f1593f",
-			"based_on_hash": "S6W6NY/Eo9xyT4zjBaZqB1vcXEIHipOOeqmTtOec/20",
-			"quantity": 1,
-			"description": "Glowstick",
-			"tech_level": "7",
-			"value": "2",
-			"weight": "0.1 lb",
-			"reference": "HT52",
-			"notes": "Lasts 12 hours.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "f82355a0-26eb-4575-9922-eb51a1e65847",
-			"based_on_id": "b6d96c51-ad7b-4a0c-85e8-bf8333b3642f",
-			"based_on_hash": "x/zzYRa76gf4xygMpqSPwt4U9LzY8EkcQxvaHREYUJA",
-			"quantity": 1,
-			"description": "Ballpoint Pen",
-			"tech_level": "7",
-			"value": "0.5",
-			"reference": "HT19",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "2cffc31c-90b2-44ec-95a4-7f3def35b289",
-			"based_on_id": "e4d14ca5-64b5-4e9c-846a-f784441d2e4e",
-			"based_on_hash": "QAF5g51Q1rOOtILWt2m+4UD+XC3x7QwmZhnRisrE8aQ",
-			"quantity": 1,
-			"description": "Floppy Disk",
-			"tech_level": "7",
-			"value": "0.5",
-			"reference": "HT22",
-			"notes": "100KB to 1.44MB; Holdout 0",
-			"categories": [
-				"Electronics"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "481023cd-1546-49bc-829c-a090fa50f44d",
-			"based_on_id": "b36033aa-6950-4f38-b566-8118848e7001",
-			"based_on_hash": "x9KBkL73i9nzGIc16CaGLJ53/AZ7YVP3misbDl9qq/U",
-			"quantity": 1,
-			"description": "Paper",
-			"tech_level": "6",
-			"value": "0.5",
-			"weight": "1 lb",
-			"reference": "HT19",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "5efce63a-6315-45e1-a17d-8850a52640e0",
-			"based_on_id": "073c2154-882a-4073-804f-cb023f44bf40",
-			"based_on_hash": "CD2iSLt8LYvr/KpGCH2u9wKafBWnj5GHGOkJqSGbdb8",
-			"quantity": 1,
-			"description": "Paper Bin",
-			"tech_level": "8",
-			"value": "2",
-			"weight": "5 lb",
-			"reference": "HT19",
-			"notes": "500 sheets.",
-			"categories": [
-				"Information Technology"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "abc307f6-67ba-42e5-b5c1-b1347516c442",
-			"based_on_id": "0abe4830-32b5-4fd1-8f79-5bc681ae271d",
-			"based_on_hash": "XhD3jjkglcybw+FUKMji7iAia09kwDGUV0m7hrTbNOI",
-			"quantity": 1,
-			"description": "Notebook",
-			"tech_level": "6",
-			"value": "1",
-			"weight": "0.1 lb",
-			"reference": "HT17",
-			"notes": "Holdout -1",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "669ab392-4a7d-4d9f-8141-777eb9906817",
-			"based_on_id": "b53c448a-dbf6-4a9c-9404-daa8501edcac",
-			"based_on_hash": "ua1TMFHaUroWOym6J82XpLhDk8+/JhS35mDc+BHiWf0",
-			"quantity": 1,
-			"description": "Fountain Pen",
-			"tech_level": "6",
-			"value": "3",
-			"reference": "HT19",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "70892bd2-6d40-4b22-a5ad-70b48c174435",
-			"based_on_id": "5a58d717-eaf0-4d9f-8354-76520cf471f1",
-			"based_on_hash": "3a1KZqvquNwWXdJxM7FlEDHplOKdkIKeY8h0SjEabiY",
-			"quantity": 1,
-			"description": "Scientific Calculator",
-			"tech_level": "8",
-			"value": "30",
-			"weight": "0.2 lb",
-			"reference": "HT18",
-			"categories": [
-				"Information Technology"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "1ccea7bb-058b-4bd7-a396-8c4cae3b7d9a",
-			"based_on_id": "d08dde19-b151-42ff-9d14-01c956519d8b",
-			"based_on_hash": "gPbQ9dycpla8bOp6uB6x+8MV7SCnJo/NNPeViUBvlrs",
-			"quantity": 1,
-			"description": "Photocopier",
-			"tech_level": "7",
-			"value": "15000",
-			"weight": "650 lb",
-			"reference": "HT19",
-			"notes": "6 pages per minute, external power.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "44eec626-2500-4c7e-b875-adc13e16f31d",
-			"based_on_id": "0f4f8ab9-c2c3-44f7-a672-c771d00aa57b",
-			"based_on_hash": "Xja5T0vGAkSj0OefEwIpaquoj80Gb40BgJIdJKQYqRU",
-			"quantity": 1,
-			"description": "Stun Baton",
+			"description": "Medical Doctor Kit",
 			"tech_level": "9",
-			"value": "100",
-			"weight": "1 lb",
-			"reference": "UT165",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "sw"
-					},
-					"strength": "5",
-					"usage": "Swing",
-					"reach": "1",
-					"parry": "0",
-					"block": "No",
-					"defaults": [
-						{
-							"type": "Skill",
-							"name": "Shortsword"
-						},
-						{
-							"type": "DX",
-							"modifier": -5
-						},
-						{
-							"type": "Skill",
-							"name": "Broadsword",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Force Sword",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Jitte/Sai",
-							"modifier": -3
-						},
-						{
-							"type": "Skill",
-							"name": "Knife",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Saber",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Smallsword",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Tonfa",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"strength": "5",
-					"usage": "Thrust",
-					"reach": "1",
-					"parry": "0",
-					"block": "No",
-					"defaults": [
-						{
-							"type": "Skill",
-							"name": "Shortsword"
-						},
-						{
-							"type": "DX",
-							"modifier": -5
-						},
-						{
-							"type": "Skill",
-							"name": "Broadsword",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Force Sword",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Jitte/Sai",
-							"modifier": -3
-						},
-						{
-							"type": "Skill",
-							"name": "Knife",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Saber",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Smallsword",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Tonfa",
-							"modifier": -3
-						}
-					]
-				},
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "HT-5(0.5) aff"
-					},
-					"usage": "Linked"
-				}
-			],
-			"notes": "B/20 hits.",
-			"categories": [
-				"Melee Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "8d31f259-a088-469e-98db-cfd71081d2b4",
-			"based_on_id": "e40e35cb-17bb-46e7-bd03-e1d72e6898c2",
-			"based_on_hash": "1aAgwAWosRwHZdmUgfWS7453Of/Te3vvgZvmY+0pwXg",
-			"quantity": 1,
-			"description": "Double Barrel Shotgun",
-			"tech_level": "5",
-			"value": "450",
+			"value": "200",
 			"weight": "10 lb",
-			"reference": "B279",
-			"weapons": [
+			"reference": "UT198",
+			"features": [
 				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "1d+2"
-					},
-					"strength": "11†",
-					"accuracy": "3",
-					"range": "50/125",
-					"rate_of_fire": "2x9",
-					"shots": "2(3i)",
-					"bulk": "-5",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					}
 				}
 			],
+			"notes": "Surgery -5.",
 			"categories": [
-				"Missile Weapon"
+				"Medical"
 			]
 		},
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "3c416964-f404-4f6b-81d8-86ee07a5e625",
-			"based_on_id": "0032a515-6bca-4b80-804e-f8dc631ac972",
-			"based_on_hash": "IHogaJobgARzURI2iEMozoYI/gjYbc2ip6n82T9GcEk",
+			"id": "b73c00c3-def8-4dd0-83e9-5d1d083b7ee7",
+			"based_on_id": "298f81a8-3bdb-4b84-afde-9eccc575c2af",
+			"based_on_hash": "juhiq2Sm7gKAm/ackH8Do3E4AVF/LAxSMg/RE2AJzXc",
 			"quantity": 1,
-			"description": "Riot Shotgun",
-			"tech_level": "6",
-			"value": "240",
-			"weight": "8 lb",
-			"reference": "B279",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "1d+1"
-					},
-					"strength": "10†",
-					"accuracy": "3",
-					"range": "50/125",
-					"rate_of_fire": "2x9",
-					"shots": "5(3i)",
-					"bulk": "-5",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
+			"description": "Surgical Tools",
+			"tech_level": "9",
+			"value": "300",
+			"weight": "15 lb",
+			"reference": "UT199",
 			"categories": [
-				"Missile Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a48ede4a-0f6e-4fa1-82a7-ab1b15427866",
-			"based_on_id": "2706016b-c7f7-4dda-ba86-0e9c65a26bcd",
-			"based_on_hash": "RfPajR9QSuJRPVksfiv9DYpEvcho2rGZpyOsGEKqMFU",
-			"quantity": 1,
-			"description": "Combat Shotgun",
-			"tech_level": "7",
-			"legality_class": "3",
-			"value": "950",
-			"weight": "8.4 lb",
-			"reference": "B279",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "1d+1"
-					},
-					"strength": "10†",
-					"accuracy": "3",
-					"range": "50/125",
-					"rate_of_fire": "3x9",
-					"shots": "6+1(3i)",
-					"bulk": "-5",
-					"recoil": "1",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"categories": [
-				"Missile Weapon"
+				"Medical"
 			]
 		},
 		{
@@ -2101,408 +1915,167 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "ac7b7939-9e1f-4c59-b1f5-9e15b28e5910",
-			"based_on_id": "343e99ba-4f6b-4673-9769-02f7e388b919",
-			"based_on_hash": "6ymF0kI/9ER6iz1IaB6mlFeXqug6QTNquAQVvqgy7xQ",
+			"id": "44eec626-2500-4c7e-b875-adc13e16f31d",
+			"based_on_id": "0f4f8ab9-c2c3-44f7-a672-c771d00aa57b",
+			"based_on_hash": "Xja5T0vGAkSj0OefEwIpaquoj80Gb40BgJIdJKQYqRU",
 			"quantity": 1,
-			"description": "Matches",
-			"tech_level": "5",
-			"value": "0.25",
-			"reference": "HT57",
-			"notes": "Box of 50.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "ee9f00ba-2538-493c-b1af-4eb7fec5860e",
-			"based_on_id": "8d44e66f-c8c0-49e9-9ee6-23835ad418b7",
-			"based_on_hash": "HUZaB5hE0H3/8Frzc1B3wWrpPGe54gNImMRFCHSRvSA",
-			"quantity": 1,
-			"description": "Sniper Rifle",
-			"tech_level": "8",
-			"legality_class": "3",
-			"value": "5600",
-			"weight": "17.5 lb",
-			"reference": "B279",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "9d+1"
-					},
-					"strength": "11B†",
-					"accuracy": "6+3",
-					"range": "1500/5500",
-					"rate_of_fire": "1",
-					"shots": "4+1(3)",
-					"bulk": "-6",
-					"recoil": "4",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"categories": [
-				"Missile Weapon",
-				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "db9c2ff4-e081-454a-96df-34ca60031fbc",
-			"based_on_id": "37f5447c-8566-4a59-8b84-5272704fe90b",
-			"based_on_hash": "2T8Ol2RzReNddQTQuD3duvjboqo3Y8OixMee0JG9YZ0",
-			"quantity": 1,
-			"description": "SAW",
-			"tech_level": "7",
-			"legality_class": "1",
-			"value": "4800",
-			"weight": "24 lb",
-			"reference": "B281",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "5d+1"
-					},
-					"strength": "12B†",
-					"accuracy": "5",
-					"range": "800/3500",
-					"rate_of_fire": "12!",
-					"shots": "200(5)",
-					"bulk": "-6",
-					"recoil": "2",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"categories": [
-				"Missile Weapon",
-				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "55051c07-c308-4644-8b61-8bd5ee85e84b",
-			"based_on_id": "d00aa3d8-da92-4451-9449-7823dafaac66",
-			"based_on_hash": "bsgzyNAvahsD/tpUSIU116pl7f4ev9wpRMeGcYfrjt0",
-			"quantity": 1,
-			"description": "Revolver, .357",
-			"tech_level": "7",
-			"legality_class": "3",
-			"value": "500",
-			"weight": "3 lb",
-			"reference": "B278",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "pi",
-						"base": "3d-1"
-					},
-					"strength": "10",
-					"accuracy": "2",
-					"range": "185/2000",
-					"rate_of_fire": "3",
-					"shots": "6(3i)",
-					"bulk": "-2",
-					"recoil": "3",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Pistol"
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Rifle",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Machine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Submachine Gun",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Musket",
-							"modifier": -2
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Grenade Launcher",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Gyroc",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Guns",
-							"specialization": "Light Anti-Armor Weapon",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Gun!"
-						}
-					]
-				}
-			],
-			"categories": [
-				"Missile Weapon",
-				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "7a906047-9905-4e8d-b595-f3c70a2590ba",
-			"based_on_id": "e397c046-6eee-41e2-b06f-5442c70efe4c",
-			"based_on_hash": "rIzq8tB9Cczet+Jp9khgF4lw8eM4/R9RCa9iH0XEvps",
-			"quantity": 1,
-			"description": "Molotov Cocktail",
-			"tech_level": "6",
-			"legality_class": "3",
+			"description": "Stun Baton",
+			"tech_level": "9",
+			"value": "100",
 			"weight": "1 lb",
-			"reference": "B277",
+			"reference": "UT165",
 			"weapons": [
 				{
-					"type": "ranged_weapon",
+					"type": "melee_weapon",
 					"damage": {
-						"type": "spec. (1 y)"
+						"type": "cr",
+						"st": "sw"
 					},
-					"accuracy": "0",
-					"range": "x3.5",
-					"rate_of_fire": "1",
-					"shots": "1",
-					"bulk": "0",
-					"recoil": "0",
+					"strength": "5",
+					"usage": "Swing",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
 					"defaults": [
 						{
 							"type": "Skill",
-							"name": "Throwing"
+							"name": "Shortsword"
+						},
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
 						}
 					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "DX",
+							"modifier": -5
+						},
+						{
+							"type": "Skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "Skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Tonfa",
+							"modifier": -3
+						}
+					]
+				},
+				{
+					"type": "melee_weapon",
+					"damage": {
+						"type": "HT-5(0.5) aff"
+					},
+					"usage": "Linked"
 				}
 			],
-			"notes": "Fuse spec.",
+			"notes": "B/20 hits.",
 			"categories": [
-				"Missile Weapon"
+				"Melee Weapon"
 			]
 		},
 		{
-			"type": "equipment",
+			"type": "equipment_container",
 			"version": 1,
-			"id": "98fde7ed-f851-4fa5-b838-c4832069bac2",
-			"based_on_id": "b230c032-a3d9-440d-9dc3-472af77746fe",
-			"based_on_hash": "ZScyVP8QtpZFxZevlcQUfMsfNgyKtuSKYUpTvbzD8Xk",
-			"quantity": 1,
-			"description": "Flamethrower",
-			"tech_level": "6",
-			"legality_class": "1",
-			"value": "1800",
-			"weight": "70 lb",
-			"reference": "B281",
+			"id": "1b09afbe-860a-4217-ac15-f681a61d2413",
+			"description": "Toolbox",
+			"value": "50",
+			"weight": "5 lb",
 			"weapons": [
 				{
-					"type": "ranged_weapon",
+					"type": "melee_weapon",
 					"damage": {
-						"type": "burn",
-						"base": "3d"
+						"type": "cr",
+						"st": "sw",
+						"base": "+2"
 					},
-					"strength": "10†",
-					"accuracy": "-",
-					"range": "50",
-					"rate_of_fire": "Jet",
-					"shots": "10",
-					"bulk": "-8",
-					"recoil": "-",
-					"defaults": [
-						{
-							"type": "DX",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Liquid Projector",
-							"specialization": "Flamethrower"
-						},
-						{
-							"type": "Skill",
-							"name": "Liquid Projector",
-							"specialization": "Sprayer",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Liquid Projector",
-							"specialization": "Squirt Gun",
-							"modifier": -4
-						},
-						{
-							"type": "Skill",
-							"name": "Liquid Projector",
-							"specialization": "Water Cannon",
-							"modifier": -4
-						}
-					]
+					"strength": "7",
+					"reach": "1"
 				}
 			],
 			"categories": [
-				"Missile Weapon"
-			]
+				"Melee Weapon",
+				"Storage"
+			],
+			"open": false
 		},
 		{
 			"type": "equipment",
@@ -2603,69 +2176,30 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "9489b2ba-98b5-48f1-8b07-af9dedd33d1e",
-			"based_on_id": "69199f35-eefe-4304-a11f-fe02fea86b34",
-			"based_on_hash": "tHVgEOF2znHfc+4pDeqRgWtGJr7dCEE2wOlMWnVNm5A",
+			"id": "a48ede4a-0f6e-4fa1-82a7-ab1b15427866",
+			"based_on_id": "2706016b-c7f7-4dda-ba86-0e9c65a26bcd",
+			"based_on_hash": "RfPajR9QSuJRPVksfiv9DYpEvcho2rGZpyOsGEKqMFU",
 			"quantity": 1,
-			"description": "Flashbang",
-			"tech_level": "6",
-			"legality_class": "2",
-			"value": "15",
-			"weight": "1 lb",
-			"reference": "B277",
-			"weapons": [
-				{
-					"type": "ranged_weapon",
-					"damage": {
-						"type": "cr ex",
-						"base": "6d"
-					},
-					"accuracy": "0",
-					"range": "x3.5",
-					"rate_of_fire": "1",
-					"shots": "1",
-					"bulk": "0",
-					"recoil": "0",
-					"defaults": [
-						{
-							"type": "Skill",
-							"name": "Throwing"
-						}
-					]
-				}
-			],
-			"notes": "Fuse 4",
-			"categories": [
-				"Missile Weapon"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "734cc07c-1f03-4924-8d86-196ff2219980",
-			"based_on_id": "c24b4a82-23a7-4916-8395-4b08f9d1c7ca",
-			"based_on_hash": "9Tjo5s8or33+degglhC8V8/ZIX/Qc8YmEWMqUP75+Kw",
-			"quantity": 1,
-			"description": "Revolver, .38",
-			"tech_level": "6",
+			"description": "Combat Shotgun",
+			"tech_level": "7",
 			"legality_class": "3",
-			"value": "400",
-			"weight": "2 lb",
-			"reference": "B278",
+			"value": "950",
+			"weight": "8.4 lb",
+			"reference": "B279",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
 					"damage": {
 						"type": "pi",
-						"base": "2d-1"
+						"base": "1d+1"
 					},
-					"strength": "8",
-					"accuracy": "2",
-					"range": "120/1500",
-					"rate_of_fire": "3",
-					"shots": "6(3i)",
-					"bulk": "-2",
-					"recoil": "2",
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "50/125",
+					"rate_of_fire": "3x9",
+					"shots": "6+1(3i)",
+					"bulk": "-5",
+					"recoil": "1",
 					"defaults": [
 						{
 							"type": "DX",
@@ -2674,7 +2208,8 @@
 						{
 							"type": "Skill",
 							"name": "Guns",
-							"specialization": "Pistol"
+							"specialization": "Pistol",
+							"modifier": -2
 						},
 						{
 							"type": "Skill",
@@ -2685,8 +2220,7 @@
 						{
 							"type": "Skill",
 							"name": "Guns",
-							"specialization": "Shotgun",
-							"modifier": -2
+							"specialization": "Shotgun"
 						},
 						{
 							"type": "Skill",
@@ -2834,6 +2368,700 @@
 		{
 			"type": "equipment",
 			"version": 1,
+			"id": "00e53e34-44b0-41ab-9e1d-cbae38ce850f",
+			"based_on_id": "a89f962a-aad8-4b64-8225-e3ed7667f2a2",
+			"based_on_hash": "g58VuS7uxDNJEHq97KKYhoyHkHJzGDC+mGqe7nrri84",
+			"quantity": 1,
+			"description": "Disabler",
+			"tech_level": "9",
+			"legality_class": "3",
+			"value": "3000",
+			"weight": "3.5 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-3 aff"
+					},
+					"strength": "4†",
+					"accuracy": "8",
+					"range": "160/470",
+					"rate_of_fire": "3",
+					"shots": "50(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"notes": "50Shts",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8d31f259-a088-469e-98db-cfd71081d2b4",
+			"based_on_id": "e40e35cb-17bb-46e7-bd03-e1d72e6898c2",
+			"based_on_hash": "1aAgwAWosRwHZdmUgfWS7453Of/Te3vvgZvmY+0pwXg",
+			"quantity": 1,
+			"description": "Double Barrel Shotgun",
+			"tech_level": "5",
+			"value": "450",
+			"weight": "10 lb",
+			"reference": "B279",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+2"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "50/125",
+					"rate_of_fire": "2x9",
+					"shots": "2(3i)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "98fde7ed-f851-4fa5-b838-c4832069bac2",
+			"based_on_id": "b230c032-a3d9-440d-9dc3-472af77746fe",
+			"based_on_hash": "ZScyVP8QtpZFxZevlcQUfMsfNgyKtuSKYUpTvbzD8Xk",
+			"quantity": 1,
+			"description": "Flamethrower",
+			"tech_level": "6",
+			"legality_class": "1",
+			"value": "1800",
+			"weight": "70 lb",
+			"reference": "B281",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "3d"
+					},
+					"strength": "10†",
+					"accuracy": "-",
+					"range": "50",
+					"rate_of_fire": "Jet",
+					"shots": "10",
+					"bulk": "-8",
+					"recoil": "-",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Liquid Projector",
+							"specialization": "Flamethrower"
+						},
+						{
+							"type": "Skill",
+							"name": "Liquid Projector",
+							"specialization": "Sprayer",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Liquid Projector",
+							"specialization": "Squirt Gun",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Liquid Projector",
+							"specialization": "Water Cannon",
+							"modifier": -4
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "9489b2ba-98b5-48f1-8b07-af9dedd33d1e",
+			"based_on_id": "69199f35-eefe-4304-a11f-fe02fea86b34",
+			"based_on_hash": "tHVgEOF2znHfc+4pDeqRgWtGJr7dCEE2wOlMWnVNm5A",
+			"quantity": 1,
+			"description": "Flashbang",
+			"tech_level": "6",
+			"legality_class": "2",
+			"value": "15",
+			"weight": "1 lb",
+			"reference": "B277",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "6d"
+					},
+					"accuracy": "0",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"bulk": "0",
+					"recoil": "0",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Throwing"
+						}
+					]
+				}
+			],
+			"notes": "Fuse 4",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "bbd0c7b3-dbf4-4adb-9f99-883e74b622ea",
+			"based_on_id": "f8158a96-bdf1-4812-b869-cbde0cdb86fc",
+			"based_on_hash": "iPCL+fJuVGUNyyblpR7RAVMHBmeFAzyS3oHgBiyDIJ4",
+			"quantity": 1,
+			"description": "Hybrid Energy Gun",
+			"tech_level": "9",
+			"legality_class": "2",
+			"value": "4000",
+			"weight": "4.3 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"usage": "Harm",
+					"accuracy": "8",
+					"range": "100/250",
+					"rate_of_fire": "3",
+					"shots": "20(5)"
+				},
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "HT-3 aff"
+					},
+					"usage": "Disable",
+					"accuracy": "8",
+					"range": "100/250",
+					"rate_of_fire": "3",
+					"shots": "30(5)"
+				}
+			],
+			"notes": "20Shts Harm/30Shts Disable",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a58b224b-835f-4bc7-b780-0c33d6fe2757",
+			"based_on_id": "a89f962a-aad8-4b64-8225-e3ed7667f2a2",
+			"based_on_hash": "g58VuS7uxDNJEHq97KKYhoyHkHJzGDC+mGqe7nrri84",
+			"quantity": 1,
+			"description": "Laser Gun",
+			"tech_level": "9",
+			"legality_class": "2",
+			"value": "3500",
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "4",
+					"accuracy": "8+1",
+					"range": "160/470",
+					"rate_of_fire": "3",
+					"shots": "40(5)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "Skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"notes": "40Shts",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "7a906047-9905-4e8d-b595-f3c70a2590ba",
+			"based_on_id": "e397c046-6eee-41e2-b06f-5442c70efe4c",
+			"based_on_hash": "rIzq8tB9Cczet+Jp9khgF4lw8eM4/R9RCa9iH0XEvps",
+			"quantity": 1,
+			"description": "Molotov Cocktail",
+			"tech_level": "6",
+			"legality_class": "3",
+			"weight": "1 lb",
+			"reference": "B277",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "spec. (1 y)"
+					},
+					"accuracy": "0",
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"bulk": "0",
+					"recoil": "0",
+					"defaults": [
+						{
+							"type": "Skill",
+							"name": "Throwing"
+						}
+					]
+				}
+			],
+			"notes": "Fuse spec.",
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "734cc07c-1f03-4924-8d86-196ff2219980",
+			"based_on_id": "c24b4a82-23a7-4916-8395-4b08f9d1c7ca",
+			"based_on_hash": "9Tjo5s8or33+degglhC8V8/ZIX/Qc8YmEWMqUP75+Kw",
+			"quantity": 1,
+			"description": "Revolver, .38",
+			"tech_level": "6",
+			"legality_class": "3",
+			"value": "400",
+			"weight": "2 lb",
+			"reference": "B278",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d-1"
+					},
+					"strength": "8",
+					"accuracy": "2",
+					"range": "120/1500",
+					"rate_of_fire": "3",
+					"shots": "6(3i)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "3c416964-f404-4f6b-81d8-86ee07a5e625",
+			"based_on_id": "0032a515-6bca-4b80-804e-f8dc631ac972",
+			"based_on_hash": "IHogaJobgARzURI2iEMozoYI/gjYbc2ip6n82T9GcEk",
+			"quantity": 1,
+			"description": "Riot Shotgun",
+			"tech_level": "6",
+			"value": "240",
+			"weight": "8 lb",
+			"reference": "B279",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "50/125",
+					"rate_of_fire": "2x9",
+					"shots": "5(3i)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "55051c07-c308-4644-8b61-8bd5ee85e84b",
+			"based_on_id": "d00aa3d8-da92-4451-9449-7823dafaac66",
+			"based_on_hash": "bsgzyNAvahsD/tpUSIU116pl7f4ev9wpRMeGcYfrjt0",
+			"quantity": 1,
+			"description": "Revolver, .357",
+			"tech_level": "7",
+			"legality_class": "1",
+			"value": "500",
+			"weight": "3 lb",
+			"reference": "B278",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "3d-1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "185/2000",
+					"rate_of_fire": "3",
+					"shots": "6(3i)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
+			"categories": [
+				"Missile Weapon",
+				"Traitor Gear"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
 			"id": "5a7f0622-ed23-4adf-a70f-1da66063af41",
 			"based_on_id": "32d2ceb3-6246-46a0-a57e-289aa5eeeea8",
 			"based_on_hash": "RPmLjtr/IhW4nAFvkA5URdgB3Y3/zmVuFI22sJnD5lc",
@@ -2932,369 +3160,195 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "ba7df263-9cd1-4933-ba9d-1c91bb8a5acc",
-			"based_on_id": "8c19a77e-642c-4afe-9139-fa848d2384e6",
-			"based_on_hash": "EzjwoHz0OS9ZuC3GLrYNsOSuCDik2H7IqH/Qnew765M",
+			"id": "db9c2ff4-e081-454a-96df-34ca60031fbc",
+			"based_on_id": "37f5447c-8566-4a59-8b84-5272704fe90b",
+			"based_on_hash": "2T8Ol2RzReNddQTQuD3duvjboqo3Y8OixMee0JG9YZ0",
 			"quantity": 1,
-			"description": "Pocket Watch",
-			"tech_level": "5",
-			"value": "100",
-			"reference": "HT31",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "56cdb7f3-b9b9-4de3-852f-877bd51b9a50",
-			"based_on_id": "f1165e33-80e0-4f46-bf54-2d0036b9e5e3",
-			"based_on_hash": "STif52kasHSIOyHYkXgGT7joIgHgENAx0oAm0LzZCJ0",
-			"quantity": 1,
-			"description": "Headphones",
+			"description": "SAW",
 			"tech_level": "7",
-			"value": "50",
-			"weight": "1 lb",
-			"reference": "HT41",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "327857d8-df87-4145-ba83-0bfe374a74cd",
-			"based_on_id": "88a7dc4f-c5bb-4f99-a20c-667ca0dad5d1",
-			"based_on_hash": "bRH6js5Oo1MKagC3YV5ACKpkgjRd5wmUaG3upOOCysE",
-			"quantity": 1,
-			"description": "Seclite",
-			"tech_level": "7",
-			"value": "100",
-			"weight": "1 lb",
-			"reference": "HT52",
-			"weapons": [
-				{
-					"type": "melee_weapon",
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"block": "No",
-					"defaults": [
-						{
-							"type": "DX"
-						},
-						{
-							"type": "Skill",
-							"name": "Boxing"
-						},
-						{
-							"type": "Skill",
-							"name": "Brawling"
-						},
-						{
-							"type": "Skill",
-							"name": "Karate"
-						}
-					]
-				}
-			],
-			"notes": "25-yard beam. 2xS/2hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a65f6478-c01d-47fb-a21c-9988c1971887",
-			"based_on_id": "76e6a217-faaa-4ed1-bf53-3a8afbea5b35",
-			"based_on_hash": "GQDNkNPkTqUnodWUIyajiplx42MsLkqcLjcxViermWs",
-			"quantity": 1,
-			"description": "Flashlight",
-			"tech_level": "8",
-			"value": "20",
-			"weight": "1 lb",
-			"reference": "HT52",
-			"notes": "10-yard beam. 2xS/50hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "2245b016-d1d2-4bf4-a438-b47d6163bd3c",
-			"based_on_id": "217ce8d1-a5a6-48a8-8c9d-f8b077d7d44e",
-			"based_on_hash": "bzDN994HzXJJFVTwl0JiZvkZWLC0OVuHpxk36d9WdpM",
-			"quantity": 1,
-			"description": "Flare",
-			"tech_level": "7",
-			"value": "25",
-			"reference": "HT27",
-			"notes": "20 minutes burn time.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "01f8a794-1a0f-45df-b5b0-4438a51f3e8f",
-			"based_on_id": "d5c9e0dc-d516-469a-9afb-e9fbdf3e7c49",
-			"based_on_hash": "Kjyui4NUogQem54hK8f4pu5+57VsBan57hwkM1jPklg",
-			"quantity": 1,
-			"description": "GPS",
-			"tech_level": "8",
-			"value": "100",
-			"weight": "0.25 lb",
-			"reference": "HT53",
-			"notes": "2xS/40hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "cfb5a6cc-cea1-4d54-b597-22a09b536819",
-			"based_on_id": "20047a99-405e-4b1a-b6ec-45fca26d617b",
-			"based_on_hash": "f/aFshEyAGbEpvWJH28TpGsDipmeVl5E9zWjZlQ1U0c",
-			"quantity": 1,
-			"description": "Geiger Counter",
-			"tech_level": "8",
-			"value": "400",
-			"weight": "0.5 lb",
-			"reference": "HT49",
-			"notes": "XS/10hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "8c3a5d0c-dd43-46e0-b5d6-253859437f6c",
-			"based_on_id": "8f6bcac3-7bd1-42bc-8c48-ff38dc7d74c6",
-			"based_on_hash": "N2Yoe28KVeJ/M/Y0PCCax9EzcZrFuy/ucOJMEoCe3ks",
-			"quantity": 1,
-			"description": "Penlite",
-			"tech_level": "8",
-			"value": "10",
-			"weight": "0.25 lb",
-			"reference": "HT52",
-			"notes": "5-yard beam. 2xXS/10hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a24a9f90-2da4-4f93-a129-bfc981e8f600",
-			"based_on_id": "42ee9ba8-f1b4-467f-a2cf-dc92b62cbd58",
-			"based_on_hash": "UvOV0SxskA7AbM/zAAHM1I5b0EGSGug3fEVLPGifPdw",
-			"quantity": 1,
-			"description": "Lighter",
-			"tech_level": "6",
-			"value": "10",
-			"reference": "HT57",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "66b107dd-d5e4-42d5-b7b0-01b9853a964c",
-			"based_on_id": "74acb677-9920-402f-9087-76263d38ecc1",
-			"based_on_hash": "hGR/fJ6slhhGUmc3qIxOCLb6JZ3vt+1KzQJjXihMcxQ",
-			"quantity": 1,
-			"description": "Night Vision Goggles",
-			"tech_level": "8",
-			"value": "3500",
-			"weight": "1.5 lb",
-			"reference": "HT48",
-			"notes": "Night Vision 7-9. 2xXS/20hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "1b0ed3b3-c39c-4885-aed5-638861543516",
-			"based_on_id": "685327d7-586d-44a7-bcf3-d376bdc7ce48",
-			"based_on_hash": "ftH0b6LXOLUjvoV+8dF2t+D5v23OCuO6ZeyJxM9O3TU",
-			"quantity": 1,
-			"description": "Candles",
-			"tech_level": "0",
-			"value": "0.03",
-			"weight": "0.0625 lb",
-			"reference": "HT51",
-			"notes": "Burns 4hrs.",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "9f7b79b4-6a56-46ab-9ace-58a4be74ad45",
-			"based_on_id": "60bd0c4e-892c-423a-9cfd-da8445dcaa74",
-			"based_on_hash": "czGLAqbBurU4EQ2W6QF8Iv6PIcpid5iyn4+oNIIU53I",
-			"quantity": 1,
-			"description": "Hand Grenade (Fragmentation)",
-			"tech_level": "6",
 			"legality_class": "1",
-			"value": "20",
-			"weight": "1 lb",
-			"reference": "HT192",
+			"value": "4800",
+			"weight": "24 lb",
+			"reference": "B281",
 			"weapons": [
 				{
 					"type": "ranged_weapon",
 					"damage": {
-						"type": "cr ex",
-						"base": "8d+2"
+						"type": "pi",
+						"base": "5d+1"
 					},
-					"bulk": "-2",
+					"strength": "12B†",
+					"accuracy": "5",
+					"range": "800/3500",
+					"rate_of_fire": "12!",
+					"shots": "200(5)",
+					"bulk": "-6",
+					"recoil": "2",
 					"defaults": [
 						{
-							"type": "Skill",
-							"name": "Throwing"
-						},
-						{
 							"type": "DX",
-							"modifier": -3
+							"modifier": -4
 						},
 						{
 							"type": "Skill",
-							"name": "Dropping",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
 							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
 						}
 					]
 				}
 			],
-			"notes": "Fuse 4-5. 1 Ready maneuver.",
 			"categories": [
-				"Explosives",
+				"Missile Weapon",
 				"Traitor Gear"
 			]
 		},
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "b81c2063-0aab-4e86-9151-49eb73169ab2",
-			"based_on_id": "6a6934f8-6fb7-4a57-ab93-a4f75e96377d",
-			"based_on_hash": "EXwVPMbyttWvuvDXZDnXWuqckh2jY5+m9y7FAnqyyd0",
+			"id": "ee9f00ba-2538-493c-b1af-4eb7fec5860e",
+			"based_on_id": "8d44e66f-c8c0-49e9-9ee6-23835ad418b7",
+			"based_on_hash": "HUZaB5hE0H3/8Frzc1B3wWrpPGe54gNImMRFCHSRvSA",
 			"quantity": 1,
-			"description": "Defibrillator",
+			"description": "Sniper Rifle",
 			"tech_level": "8",
-			"legality_class": "3",
-			"value": "10000",
-			"weight": "15 lb",
-			"reference": "HT219",
-			"notes": "L/20 uses. +3 to resuscitation.",
+			"legality_class": "1",
+			"value": "5600",
+			"weight": "17.5 lb",
+			"reference": "B279",
+			"weapons": [
+				{
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "9d+1"
+					},
+					"strength": "11B†",
+					"accuracy": "6+3",
+					"range": "1500/5500",
+					"rate_of_fire": "1",
+					"shots": "4+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "DX",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "Skill",
+							"name": "Gun!"
+						}
+					]
+				}
+			],
 			"categories": [
-				"Emergency Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "f665876a-7dd7-4bf5-8b24-1346ce7351ad",
-			"based_on_id": "bf115b95-2a9d-4607-ad9b-8c4f3ebefc02",
-			"based_on_hash": "cks+kksxBGOBsu87Mhwz2FbTHoZD7Mdb9oSGpQNzCVc",
-			"quantity": 1,
-			"description": "C4",
-			"tech_level": "6",
-			"legality_class": "2",
-			"value": "30",
-			"weight": "1 lb",
-			"reference": "HT186",
-			"categories": [
-				"Explosives",
+				"Missile Weapon",
 				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "5fe1b8aa-0ac2-41a0-86b4-ff114b8b6dc2",
-			"based_on_id": "4d7d7bd6-40d7-433a-b36d-74ca462bb8d5",
-			"based_on_hash": "r6jWUDHsMO6xmDjr3hTQKzhcUhOUq0MuZigr+AzA1z4",
-			"quantity": 1,
-			"description": "Battery (L)",
-			"value": "10",
-			"weight": "10 lb",
-			"reference": "HT13",
-			"categories": [
-				"Electronics"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "0b335901-13b6-4ea1-9acd-bc987e4d506b",
-			"based_on_id": "addf5d72-25e8-4827-8a4d-a1a30185d6c8",
-			"based_on_hash": "lWC0LutnUXmt1/n8GD57Pkti1lv0d3GutZQmnQXBsaI",
-			"quantity": 1,
-			"description": "Battery (M)",
-			"value": "5",
-			"weight": "2 lb",
-			"reference": "HT13",
-			"categories": [
-				"Electronics"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "44b2de9d-3c74-4fbc-9515-c0477db6deb5",
-			"based_on_id": "d86523d1-068d-4325-8aae-682ac47aded0",
-			"based_on_hash": "PKpsnWxTpzRIdCHCR1yCEYOckRdkDPSDBvz2KaSflTY",
-			"quantity": 1,
-			"description": "Battery (S)",
-			"value": "1",
-			"weight": "0.33 lb",
-			"reference": "HT13",
-			"categories": [
-				"Electronics"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "73dccdda-0dba-4352-93e6-05b057681394",
-			"based_on_id": "0746dd7a-4d0e-48a0-a512-f6863baf22cc",
-			"based_on_hash": "edAQz7owatoOIFefi34/i+S3JYTET4zj/o/SW1yBVOU",
-			"quantity": 1,
-			"description": "Electromagnetic Sequencer",
-			"tech_level": "5",
-			"value": "1",
-			"reference": "HT18",
-			"notes": "Can open any powered, unbolted door.",
-			"categories": [
-				"Electronics",
-				"Traitor Gear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "a32ded61-07bd-4573-a902-9d34e4cd2da2",
-			"based_on_id": "0746dd7a-4d0e-48a0-a512-f6863baf22cc",
-			"based_on_hash": "edAQz7owatoOIFefi34/i+S3JYTET4zj/o/SW1yBVOU",
-			"quantity": 1,
-			"description": "ID Card",
-			"tech_level": "5",
-			"value": "1",
-			"reference": "HT18",
-			"categories": [
-				"General Equipment"
 			]
 		},
 		{
@@ -3350,113 +3404,11 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "0b54a68b-db1d-413a-91a7-918cae7538c2",
-			"based_on_id": "96fff355-713b-426f-8670-a6766e8520c8",
-			"based_on_hash": "t3LxXGwJLzcyewbNA50GSua2ZioVcESAB8IkXJ6G1ng",
-			"quantity": 1,
-			"description": "Eyeglasses",
-			"tech_level": "5",
-			"value": "150",
-			"reference": "HT225",
-			"categories": [
-				"Eyewear"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "8ffff185-0aa3-418e-bfe6-558c41fcc40b",
-			"based_on_id": "97531fa0-feaf-4f90-af1c-c84d76259a5d",
-			"based_on_hash": "+neoA8YQfXR8WQxK3/lTBPUbkmkzUkEjwCY8bDx5IcY",
-			"quantity": 1,
-			"description": "Bowman Headset",
-			"tech_level": "8",
-			"value": "250",
-			"weight": "0.5 lb",
-			"reference": "HT39",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "e41cb624-5539-43f5-a8f7-9e66fe8e138f",
-			"based_on_id": "97531fa0-feaf-4f90-af1c-c84d76259a5d",
-			"based_on_hash": "+neoA8YQfXR8WQxK3/lTBPUbkmkzUkEjwCY8bDx5IcY",
-			"quantity": 1,
-			"description": "Radio Headset",
-			"tech_level": "8",
-			"value": "150",
-			"weight": "0.25 lb",
-			"reference": "HT39",
-			"categories": [
-				"General Equipment"
-			]
-		},
-		{
-			"type": "equipment_container",
-			"version": 1,
-			"id": "5cd672f4-fb2b-4330-b3cf-cdcf391c8cf6",
-			"based_on_id": "77915896-472a-46f9-ac2b-a77774f678b7",
-			"based_on_hash": "03rHMPurHrb7LrT1rrHJZy65nx/HekZ3Wg64JdZrKog",
-			"description": "Backpack",
-			"tech_level": "5",
-			"value": "60",
-			"weight": "3 lb",
-			"reference": "HT54",
-			"notes": "Holds 50lbs.",
-			"categories": [
-				"General Equipment"
-			],
-			"open": false
-		},
-		{
-			"type": "equipment_container",
-			"version": 1,
-			"id": "bd22329d-e86c-418a-bfb9-674def71b938",
-			"based_on_id": "78844f4d-9e41-4805-a5df-d574312256d7",
-			"based_on_hash": "H8fSVaJWw0T+fDHHqXuc9MrJBZO1BS7Pmjh5wdQFUbY",
-			"description": "Duffel Bag",
-			"tech_level": "8",
-			"value": "200",
-			"weight": "10 lb",
-			"reference": "HT55",
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"amount": -1,
-					"attribute": "move"
-				}
-			],
-			"notes": "Holds 100lbs. -1 Basic Move.",
-			"categories": [
-				"General Equipment"
-			],
-			"open": true
-		},
-		{
-			"type": "equipment",
-			"version": 1,
 			"id": "4bce8aef-0ba6-4093-81eb-3e605370a109",
 			"based_on_id": "111de6bb-63d3-45d2-9993-86b6dda617c2",
 			"based_on_hash": "UsppjSa7TXQJXfoCtr/KISlU8olI8jHenBdyac6ClQg",
 			"quantity": 1,
 			"description": "Antirad",
-			"value": "50",
-			"notes": "10u",
-			"categories": [
-				"Reagent"
-			]
-		},
-		{
-			"type": "equipment",
-			"version": 1,
-			"id": "301fad65-8cbd-434d-8308-ae62dba0902e",
-			"based_on_id": "e5811cc4-adc3-4d39-b83d-0e6747d6fa80",
-			"based_on_hash": "OC+yLg9g9yIOPFwzczNhsmNrMYFAM621VoSe/tV3ZX0",
-			"quantity": 1,
-			"description": "Charcoal",
 			"value": "50",
 			"notes": "10u",
 			"categories": [
@@ -3480,12 +3432,40 @@
 		{
 			"type": "equipment",
 			"version": 1,
+			"id": "301fad65-8cbd-434d-8308-ae62dba0902e",
+			"based_on_id": "e5811cc4-adc3-4d39-b83d-0e6747d6fa80",
+			"based_on_hash": "OC+yLg9g9yIOPFwzczNhsmNrMYFAM621VoSe/tV3ZX0",
+			"quantity": 1,
+			"description": "Charcoal",
+			"value": "50",
+			"notes": "10u",
+			"categories": [
+				"Reagent"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
 			"id": "4cb8c85d-4852-4646-be60-360aa2710a30",
 			"based_on_id": "301fad65-8cbd-434d-8308-ae62dba0902e",
 			"based_on_hash": "548/auqS37BqfRjVULEK2f80YT+/ASlDZh5OelcJutE",
 			"quantity": 1,
 			"description": "Morphine",
 			"value": "50",
+			"notes": "10u",
+			"categories": [
+				"Reagent"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "2a47cab6-2540-4911-9777-051c9aafda78",
+			"based_on_id": "4cb8c85d-4852-4646-be60-360aa2710a30",
+			"based_on_hash": "RzImQnIW8IK70kgTElRIjRhVjeu6mv7yLPi9ApmUG50",
+			"quantity": 1,
+			"description": "Synthflesh",
+			"value": "150",
 			"notes": "10u",
 			"categories": [
 				"Reagent"
@@ -3508,15 +3488,171 @@
 		{
 			"type": "equipment",
 			"version": 1,
-			"id": "2a47cab6-2540-4911-9777-051c9aafda78",
-			"based_on_id": "4cb8c85d-4852-4646-be60-360aa2710a30",
-			"based_on_hash": "RzImQnIW8IK70kgTElRIjRhVjeu6mv7yLPi9ApmUG50",
+			"id": "ad7567cc-55f4-40f7-942e-d258e8f825fa",
+			"based_on_id": "0e9d12f5-dc60-484e-8c22-f954cc11ff2a",
+			"based_on_hash": "3uVPxKVBeMSudyn/3ohv8xpYOFhfVwS+0KFpFrdQB74",
 			"quantity": 1,
-			"description": "Synthflesh",
-			"value": "150",
-			"notes": "10u",
+			"description": "Fingerprint Kit",
+			"tech_level": "6",
+			"value": "50",
+			"weight": "1 lb",
+			"reference": "HT217",
 			"categories": [
-				"Reagent"
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "a8e72113-ab50-4d68-a8a5-b620d9348312",
+			"based_on_id": "6adc4db1-5df6-4395-aec5-1e2aad0745ee",
+			"based_on_hash": "TVnzqddoqOwBOYB/H1RY6Db35aiUTY1Onyi/i12Fito",
+			"quantity": 1,
+			"description": "Forensics Kit",
+			"tech_level": "7",
+			"value": "150",
+			"weight": "10 lb",
+			"reference": "HT217",
+			"categories": [
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "754b4975-4599-43b6-b5a3-ff62ec97cbfb",
+			"based_on_id": "84814c0d-1246-4826-84a1-24fe16555b51",
+			"based_on_hash": "80vvwIDHa01+4KqevGknzQs8Wy12GwYu8ViWATKnTmQ",
+			"quantity": 1,
+			"description": "Handcuffs",
+			"tech_level": "6",
+			"value": "50",
+			"weight": "0.5 lb",
+			"reference": "HT217",
+			"notes": "Escape -5. DR 4. HP 6.",
+			"categories": [
+				"Security"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "255eb840-e2b3-4951-b2c8-cfca2938e247",
+			"based_on_id": "f67cc696-abc0-4d78-8955-4d454922c1cd",
+			"based_on_hash": "D1fAwGVixHhWpt8YME2wlbP7zvCNGvpVpvYrugNs8b0",
+			"quantity": 1,
+			"description": "Straitjacket",
+			"tech_level": "5",
+			"value": "100",
+			"weight": "3 lb",
+			"reference": "HT217",
+			"notes": "Escape -10 on average.",
+			"categories": [
+				"Security"
+			]
+		},
+		{
+			"type": "equipment_container",
+			"version": 1,
+			"id": "3a67714b-ecfe-47af-bd6d-8bc6c4c2fc9e",
+			"description": "Toolbelt",
+			"value": "50",
+			"weight": "4 lb",
+			"categories": [
+				"Storage"
+			],
+			"open": false
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "512c3619-df3a-450a-abec-11658c206f7c",
+			"quantity": 1,
+			"description": "Multitool",
+			"tech_level": "8",
+			"value": "30",
+			"weight": "0.5 lb",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "c69432c1-98f6-459c-a1e2-2250cb1c0fa4",
+			"quantity": 1,
+			"description": "Rapid Construction Device (RCD)",
+			"tech_level": "11",
+			"legality_class": "3",
+			"value": "3600",
+			"weight": "5 lb",
+			"notes": "we like fortnite",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "8cbb1df5-8d18-4957-b7cf-b57117dae495",
+			"quantity": 1,
+			"description": "Rapid Piping Device (RPD)",
+			"tech_level": "11",
+			"legality_class": "3",
+			"value": "3600",
+			"weight": "5 lb",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "af130091-0996-4941-9d65-00a88a024285",
+			"quantity": 1,
+			"description": "Screwdriver",
+			"value": "25",
+			"weight": "0.5 lb",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "6eb80c17-a731-4b94-b6d2-bf5da58755bd",
+			"quantity": 1,
+			"description": "Welding Tool (Basic)",
+			"value": "25",
+			"weight": "0.5 lb",
+			"uses": 15,
+			"max_uses": 15,
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "184f0a8c-8e35-47b0-94c7-ed7b626fec7a",
+			"quantity": 1,
+			"description": "Wirecutters",
+			"value": "25",
+			"weight": "0.5 lb",
+			"categories": [
+				"Tools"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "988fae8a-378c-47d0-9675-dbb316e775ac",
+			"quantity": 1,
+			"description": "Wrench",
+			"value": "25",
+			"weight": "0.5 lb",
+			"categories": [
+				"Tools"
 			]
 		}
 	]
